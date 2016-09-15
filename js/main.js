@@ -146,4 +146,7 @@ window.onload = function(){
 		pop_login.style.display = "none";
 		mark.style.display = "none";
 	}
+	
+	
+	
 }

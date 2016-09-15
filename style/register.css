@@ -1,0 +1,132 @@
+/* line 3, ../sass/register.scss */
+.register_page_content, .login_page_content {
+  width: 820px;
+  margin: 100px auto 30px;
+}
+/* line 6, ../sass/register.scss */
+.register_page_content .logo_box, .login_page_content .logo_box {
+  width: 100%;
+  text-align: center;
+}
+/* line 10, ../sass/register.scss */
+.register_page_content .logo img, .login_page_content .logo img {
+  height: 60px;
+  margin-bottom: 20px;
+}
+/* line 14, ../sass/register.scss */
+.register_page_content .content, .login_page_content .content {
+  background: #fff;
+  padding: 40px 60px;
+}
+/* line 17, ../sass/register.scss */
+.register_page_content .content h2, .login_page_content .content h2 {
+  color: #000;
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 18px;
+}
+/* line 24, ../sass/register.scss */
+.register_page_content .content .left, .login_page_content .content .left {
+  width: 50%;
+  float: left;
+  padding-right: 40px;
+  border-right: 1px solid #ccc;
+  box-sizing: border-box;
+}
+/* line 30, ../sass/register.scss */
+.register_page_content .content .left .pwd_strength, .login_page_content .content .left .pwd_strength {
+  font-size: 0;
+  margin-bottom: 10px;
+}
+/* line 33, ../sass/register.scss */
+.register_page_content .content .left .pwd_strength li, .login_page_content .content .left .pwd_strength li {
+  font-size: 12px;
+  display: inline-block;
+  margin-right: 10px;
+  color: #555555;
+  width: 50px;
+  text-align: center;
+  background: #BBBBBB;
+}
+/* line 41, ../sass/register.scss */
+.register_page_content .content .left .pwd_strength li.active, .login_page_content .content .left .pwd_strength li.active {
+  background: #FF5C00;
+}
+/* line 46, ../sass/register.scss */
+.register_page_content .content .left .login, .login_page_content .content .left .login {
+  margin-top: 15px;
+}
+/* line 49, ../sass/register.scss */
+.register_page_content .content .left .text, .login_page_content .content .left .text {
+  height: 40px;
+  line-height: 40/9;
+  margin-bottom: 10px;
+}
+/* line 54, ../sass/register.scss */
+.register_page_content .content .left .checkbox, .login_page_content .content .left .checkbox {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+/* line 59, ../sass/register.scss */
+.register_page_content .content .right, .login_page_content .content .right {
+  width: 50%;
+  padding-left: 60px;
+  margin-top: 40px;
+  float: left;
+  box-sizing: border-box;
+}
+/* line 65, ../sass/register.scss */
+.register_page_content .content .right h2, .login_page_content .content .right h2 {
+  font-size: 14px;
+  margin-bottom: 100px;
+}
+/* line 68, ../sass/register.scss */
+.register_page_content .content .right h2 a, .login_page_content .content .right h2 a {
+  color: #35B558;
+}
+/* line 70, ../sass/register.scss */
+.register_page_content .content .right h2 a:hover, .login_page_content .content .right h2 a:hover {
+  text-decoration: underline;
+}
+/* line 76, ../sass/register.scss */
+.register_page_content .content .right .liner, .login_page_content .content .right .liner {
+  height: 0px;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  margin: 40px 0;
+  position: relative;
+}
+/* line 82, ../sass/register.scss */
+.register_page_content .content .right .liner span, .login_page_content .content .right .liner span {
+  width: 86px;
+  padding: 0 5px;
+  position: absolute;
+  top: -6px;
+  left: 50%;
+  margin-left: -43px;
+  background: #fff;
+  color: #999999;
+}
+
+@media only screen and (max-width: 640px) {
+  /* line 100, ../sass/register.scss */
+  .register_page_content, .login_page_content {
+    width: 100%;
+  }
+  /* line 102, ../sass/register.scss */
+  .register_page_content .content, .login_page_content .content {
+    margin: 0 20px;
+    padding: 20px;
+  }
+  /* line 105, ../sass/register.scss */
+  .register_page_content .content .left, .login_page_content .content .left {
+    width: 100%;
+    border: none;
+    padding: 0;
+  }
+  /* line 110, ../sass/register.scss */
+  .register_page_content .content .right, .login_page_content .content .right {
+    width: 100%;
+    padding: 0;
+  }
+}

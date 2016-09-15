@@ -1,0 +1,106 @@
+/* line 3, ../sass/personalpage.scss */
+.user_info {
+  height: 128px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+/* line 8, ../sass/personalpage.scss */
+.user_info img {
+  float: left;
+  width: 80px;
+  height: 80px;
+  margin: 25px 30px;
+}
+/* line 14, ../sass/personalpage.scss */
+.user_info .user_info_content {
+  width: 700px;
+  float: left;
+  margin-top: 20px;
+}
+/* line 18, ../sass/personalpage.scss */
+.user_info .user_info_content p {
+  line-height: 30px;
+  color: #999999;
+}
+/* line 21, ../sass/personalpage.scss */
+.user_info .user_info_content p .username {
+  color: #333333;
+  font-size: 14px;
+  margin-right: 20px;
+}
+/* line 26, ../sass/personalpage.scss */
+.user_info .user_info_content p .label {
+  border-radius: 15px;
+  font-size: 10px;
+  padding: 0px 5px;
+  background: #9F9F9F;
+  color: #fff;
+}
+/* line 36, ../sass/personalpage.scss */
+.user_info .edit_info_btn {
+  margin-top: 20px;
+  padding: 0 15px;
+}
+
+/* line 42, ../sass/personalpage.scss */
+.personal_page_course_nav ul {
+  background: #f5f5f5;
+  border: 1px solid #ccc;
+  line-height: 42px;
+  font-size: 14px;
+}
+/* line 47, ../sass/personalpage.scss */
+.personal_page_course_nav ul li {
+  float: left;
+}
+/* line 50, ../sass/personalpage.scss */
+.personal_page_course_nav ul a {
+  display: block;
+  padding: 0 20px;
+  color: #555555;
+  border-right: 1px solid #ccc;
+}
+/* line 55, ../sass/personalpage.scss */
+.personal_page_course_nav ul a:hover, .personal_page_course_nav ul a.active {
+  background: #fff;
+  color: #0DBD0D;
+}
+
+/* line 63, ../sass/personalpage.scss */
+.course_content_header h3 {
+  font-size: 14px;
+}
+/* line 65, ../sass/personalpage.scss */
+.course_content_header h3 a {
+  float: right;
+  color: #2d85ca;
+  font-size: 12px;
+}
+
+/* line 72, ../sass/personalpage.scss */
+.visitor {
+  float: left;
+  width: 213px;
+  margin-left: 10px;
+  border: 1px solid #ccc;
+}
+/* line 77, ../sass/personalpage.scss */
+.visitor h3 {
+  background: #f5f5f5;
+  font-size: 14px;
+  line-height: 30px;
+  color: #555;
+  padding-left: 10px;
+}
+/* line 84, ../sass/personalpage.scss */
+.visitor .visitor_panel {
+  padding: 10px;
+  height: 200px;
+  text-align: center;
+}
+/* line 89, ../sass/personalpage.scss */
+.visitor .visitor_panel img {
+  height: 75px;
+  margin-top: 60px;
+}

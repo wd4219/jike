@@ -1,15 +1,19 @@
 @import "compass/reset";
 @import "compass/css3";
+@import "register";
 @import "login";
+@import "mystudycenter";
+@import "personalpage";
+@import "set_user_info";
 $nav_height: 60px;
 @font-face {
     font-family: "iconfont";
     src: url('../font/iconfont.eot');
-    /* IE9*/
-    src:/* IE6-IE8 */
-    /* chrome, firefox */
     /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-    url('../font/iconfont.eot?t=1473764201#iefix') format('embedded-opentype'),url('../font/iconfont.woff?t=1473764201') format('woff'),url('../font/iconfont.ttf?t=1473764201') format('truetype'),url('../font/iconfont.svg?t=1473764201#iconfont') format('svg');
+    /* chrome, firefox */
+    /* IE6-IE8 */
+    /* IE9*/
+    src: url('../font/iconfont.eot?t=1473764201#iefix') format('embedded-opentype'),url('../font/iconfont.woff?t=1473764201') format('woff'),url('../font/iconfont.ttf?t=1473764201') format('truetype'),url('../font/iconfont.svg?t=1473764201#iconfont') format('svg');
     /* iOS 4.1- */
 }
 .iconfont {
@@ -23,27 +27,20 @@ $nav_height: 60px;
     -webkit-text-stroke-width: 0.2px;
     -moz-osx-font-smoothing: grayscale;
 }
-.icon-fanhuidingbu:before {
-    content: "\f0010";
-}
-.icon-phone:before {
-    content: "\e611";
-}
-.icon-weixin:before {
-    content: "\3488";
-}
-.icon-lianxiwomen:before {
-    content: "\e60e";
-}
-.icon-QQ:before {
-    content: "\e607";
-}
-.icon-unie61d:before {
-    content: "\e60a";
-}
-.icon-baidu:before {
-    content: "\e7df";
-}
+.icon-weixin:before { content: "\e600"; }
+.icon-fanhuidingbu:before { content: "\e601"; }
+.icon-QQ:before { content: "\e602"; }
+.icon-shizhong:before { content: "\e60a"; }
+.icon-unie61d:before { content: "\e603"; }
+.icon-baidu:before { content: "\e604"; }
+.icon-phone:before { content: "\e605"; }
+.icon-js:before { content: "\e60b"; }
+.icon-gao:before { content: "\e60c"; }
+.icon-vip-guihua:before { content: "\e606"; }
+.icon-jiuyeban:before { content: "\e607"; }
+.icon-lianxiwomen:before { content: "\e608"; }
+.icon-book:before { content: "\e609"; }
+
 body {
     font-family: "microsoft yahei";
     font-size: 12px;
@@ -694,14 +691,18 @@ header {
     }
 }
 .footer {
-    padding: 30px 0 0;
     background: #fff;
     border-top: 1px solid #ccc;
+    
     color: #9F9F9F;
+    .footer_content{
+        padding: 30px 0 0;
+    }
     .left_area {
         width: 230px;
         height: 205px;
         float: left;
+        
         p {
             margin-top: 22px;
         }
@@ -791,6 +792,7 @@ header {
         }
     }
     .copyright {
+        margin-top: -1px;
         border-top: 1px solid #ccc;
         text-align: center;
         line-height: 40px;
@@ -878,14 +880,6 @@ header {
             font-family: iconfont;
         }
     }
-    .forget_pwd {
-        display: inline-block;
-        float: right;
-        &:hover {
-            color: #35B558;
-        }
-    }
-    
     .no_account {
         font-size: 22px;
         text-align: center;
@@ -908,13 +902,17 @@ header {
     box-sizing: border-box;
     //outline: #35B558;
 }
-.small_text{
+.small_text {
     width: 60%;
 }
 .checkbox {
     line-height: 20px;
     margin: 20px 0;
     position: relative;
+    color: #999999;
+    a{
+        color: #999999;
+    }
 }
 input[type="checkbox"] {
     position: relative;
@@ -985,17 +983,24 @@ input[type="checkbox"] {
     }
 }
 .login {
-        border: none;
-        background: #35B558;
-        text-align: center;
-        color: #fff;
-        height: 45px;
-        line-height: 45px;
-        font-size: 18px;
-        transition: background 0.8s;
-        font-family: "microsoft yahei";
-        width: 100%;
-        &:hover {
-            background: #6DC986;
-        }
+    border: none;
+    background: #35B558;
+    text-align: center;
+    color: #fff;
+    height: 45px;
+    line-height: 45px;
+    font-size: 18px;
+    transition: background 0.8s;
+    font-family: "microsoft yahei";
+    width: 100%;
+    &:hover {
+        background: #6DC986;
     }
+}
+.forget_pwd {
+    display: inline-block;
+    float: right;
+    &:hover {
+        color: #35B558;
+    }
+}

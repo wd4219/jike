@@ -1,0 +1,147 @@
+@charset "utf-8";
+.set_user_info_slider {
+    width: 208px;
+    border: 1px solid #ccc;
+    line-height: 50px;
+    background: #fff;
+    float: left;
+    margin-right: 30px;
+    ul {
+        margin-bottom: -1px;
+    }
+    li {
+        padding-left: 20px;
+        font-size: 14px;
+        border-bottom: 1px solid #ccc;
+        a {
+            color: #555;
+            &.active {
+                color: #0DBD0D;
+            }
+        }
+        .label {
+            margin-left: 20px;
+            border-radius: 15px;
+            font-size: 10px;
+            padding: 0 5px;
+            background: #9F9F9F;
+            color: #fff;
+        }
+    }
+}
+.set_user_info_content {
+    background: #fff;
+    border: 1px solid #ccc;
+    width: 758px;
+    float: left;
+    .user_title {
+        height: 50px;
+        border-bottom: 1px solid #ccc;
+        line-height: 50px;
+        font-size: 16px;
+        padding-left: 20px;
+        color: #555;
+    }
+    .essential_info {
+        h3 {
+            border-left: 2px solid #0DBD0D;
+            margin: 30px 0;
+            padding-left: 20px;
+            font-size: 14px;
+        }
+        .basic_form {
+            text-align: center;
+            li {
+                height: 30px;
+                line-height: 30px;
+                color: #555555;
+                position: relative;
+                margin-bottom: 20px;
+                &:first-child {
+                    height: 70px;
+                    line-height: 70px;
+                    overflow: hidden;
+                }
+                &:last-child {
+                    height: 80px;
+                    line-height: 20px;
+                }
+                label {
+                    width: 100px;
+                    text-align: right;
+                    display: block;
+                    float: left;
+                }
+                .input_box {
+                    margin-left: 20px;
+                    float: left;
+                    .user_picture {
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 50%;
+                        display: inline-block;
+                        margin-top: 10px;
+                        line-height: 50px;
+                        text-align: center;
+                        background: rgba(0,0,0,.8);
+                        color: #fff;
+                        &:hover {
+                            img {
+                                display: none;
+                            }
+                        }
+                        img {
+                            width: 50px;
+                            height: 50px;
+                            border-radius: 50%;
+                        }
+                    }
+                    input,
+                    select {
+                        border: 1px solid #ccc;
+                        height: 30px;
+                        line-height: 30px/9;
+                        padding: 0;
+                        box-sizing: border-box;
+                        line-height: 30px;
+                        width: 130px;
+                        margin-right: 20px;
+                    }
+                    .edit_username {
+                        position: absolute;
+                        left: 273px;
+                        top: 0;
+                        color: #2d85ca;
+                    }
+                    textarea{
+                        height: 50px;
+                        padding: 10px;
+                        width: 500px;
+                    }
+                    .textarea_num{
+                        position: absolute;
+                        right: 115px;
+                        color: #BBBBBB;
+                    }
+                    i{
+                        color:#BBBBBB;
+                    }
+                }
+            }
+            .btn{
+                background: #fff;
+                color: #35B558;
+                &:hover{
+                    color: #fff;
+                    background: #35B558;
+                }
+                width:200px;
+                font-size: 14px;
+                line-height: 30px;
+                font-family: "microsoft yahei";
+                display: inline-block;
+                margin-bottom: 30px;
+            }
+        }
+    }
+}

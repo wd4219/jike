@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8" />
+		<title>个人资料</title>
+		<link rel="stylesheet" type="text/css" href="style/main.css" />
+	</head>
+
+	<body>
+		<header>
+			<nav class="navbar commwidth clearfix">
+				<div class="logo fl">
+					<img src="img/logo.jpg" alt="极客学院logo" />
+				</div>
+				<ul class="fl">
+					<li>
+						<a href="#" class="index">首页</a>
+					</li>
+					<li>职业学院<span class="arrow"></span>
+						<div class="submenu">
+							<h3>前端学院</h3>
+							<a href="#"><span class="web_icon"></span>web工程师</a>
+							<h3>后端学院</h3>
+							<a href="#"><span class="python_icon"></span>python web工程师</a>
+							<a href="#"><span class="go_icon"></span>go语言工程师</a>
+							<h3>移动学院</h3>
+							<a href="#"><span class="ios_icon"></span>ios工程师</a>
+						</div>
+					</li>
+					<li>会员课程<span class="arrow"></span>
+						<div class="submenu">
+							<a href="#"><span class="web_icon"></span>课程库<i>2500</i></a>
+							<a href="#"><span class="python_icon"></span>职业路径图<i>9</i></a>
+							<a href="#"><span class="go_icon"></span>知识体系图<i>24</i></a>
+							<a href="#"><span class="ios_icon"></span>系列课程<i>101</i></a>
+							<a href="#"><span class="ios_icon"></span>课程标签<i>4000+</i></a>
+							<a href="#"><span class="ios_icon"></span>vip会员购买<i>30元/月 260/年</i></a>
+						</div>
+					</li>
+					<li>极客社区<span class="arrow"></span></li>
+				</ul>
+				<div class="icon_box">
+					<span class="search"></span>
+					<span class="app">
+					<div class="submenu">
+						<i class="top_icon"></i>
+						<img src="img/app_img.png" alt="极客学院app二维码" />
+					</div>
+				</span>
+					<span class="user">
+					<div class="submenu">
+						<i class="top_icon"></i>
+						<dl class="usermanage">
+						<dt><a href="register.html">注册</a><em>|</em><a href="login.html">登录</a></dt>
+						<dd><a href="mystudycenter.html"><span class="sc"></span>学习中心</a>
+					</dd>
+					<dd>
+						<a href="#"><span class="pp"></span>个人主页</a>
+					</dd>
+					<dd>
+						<a href="#"><span class="news"></span>消息通知</a>
+					</dd>
+					<dd>
+						<a href="#"><span class="acount"></span>账号设置</a>
+					</dd>
+					</dl>
+				</div>
+				</span>
+				</div>
+				<div class="search_box" id="search_box">
+					<span class="search_icon fl"></span>
+					<input type="text" placeholder="搜索课程、问答或Wiki" class="fl" />
+					<a href="#">android</a>
+					<a href="#">iOS</a>
+					<a href="#">HTML5</a>
+					<span class="close"></span>
+				</div>
+			</nav>
+		</header>
+		<div class="hr_20"></div>
+		<div class="set_user_info_body commwidth clearfix">
+			<div class="set_user_info_slider">
+				<ul>
+					<li>
+						<a href="javascript:;" class="active">个人资料</a>
+					</li>
+					<li>
+						<a href="javascript:;">认证学员</a><span class="label">未认证</span></li>
+					<li>
+						<a href="javascript:;">我的VIP</a>
+					</li>
+					<li>
+						<a href="javascript:;">我的极客币</a>
+					</li>
+					<li>
+						<a href="javascript:;">我的订单</a>
+					</li>
+					<li>
+						<a href="javascript:;">账号安全</a>
+					</li>
+					<li>
+						<a href="javascript:;">消息设置</a>
+					</li>
+					<li>
+						<a href="javascript:;">绑定第三方账号</a>
+					</li>
+				</ul>
+			</div>
+			<div class="set_user_info_content">
+				<h2 class="user_title">个人资料</h2>
+				<div class="essential_info">
+					<h3>基本信息</h3>
+					<form action="#" method="post" class="basic_form">
+						<ul>
+							<li>
+								<label for="">头像</label>
+								<div class="input_box">
+									<a href="javascript:;" class="user_picture" ><img src="img/login_icon.jpg" alt="头像" />修改
+									</a>
+								</div>
+							</li>
+							<li>
+								<label for="username">用户名</label>
+								<div class="input_box"><span>某某某</span>
+									<input type="text" id="username" style="display: none;"/>
+									<a href="javascript:;" id="edit_username" class="edit_username">修改用户名</a>
+								</div>
+							</li>
+							<li>
+								<label for="name">真实姓名</label>
+								<div class="input_box"><input type="text" value="某某某" id="name" />
+									<i>仅用户自己可见</i></div>
+							</li>
+							<li><label>性别</label>
+								<div class="input_box">
+									<span>
+										<select name="sex">
+											<option value="保密">保密</option>
+											<option value="男">男</option>
+											<option value="女">女</option>
+										</select>
+									</span>
+								</div>
+							</li>
+							<li>
+								<label for="birthday">生日</label>
+								<div class="input_box">
+									<input type="text" id="birthday"/>
+								</div>
+							</li>
+							<li>
+								<label for="address">现居住地</label>
+								<div class="input_box">
+									<span>
+										<select name="province">
+											<option value="省">省</option>
+										</select>
+									</span>
+									<span>
+										<select name="city">
+											<option value="市">市</option>
+										</select>
+									</span>
+								</div>
+							</li>
+							<li>
+								<label for="personal_des">个人简介</label>
+								<div class="input_box">
+									<textarea id="personal_des" maxlength="200" placeholder="一句话介绍一下自己吧，让别人更了解你"></textarea>
+									<p class="textarea_num">还可以输入<span class="personal_des_num">200</span>字</p>
+								</div>
+							</li>
+						</ul>
+						<button type="submit" class="btn" >保存</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="hr_20"></div>
+		<div class="footer">
+			<div class="commwidth footer_content clearfix">
+				<div class="left_area">
+					<img src="img/footer_logo.png" />
+					<p>极客学院，编程是一种信仰</p>
+				</div>
+				<dl>
+					<dt>职业学院</dt>
+					<dd>
+						<a href="#">WEB前端工程师</a>
+					</dd>
+					<dd>
+						<a href="#">Python Web前端工程师</a>
+					</dd>
+					<dd>
+						<a href="#">Go语言工程师</a>
+					</dd>
+					<dd>
+						<a href="#">IOS工程师</a>
+					</dd>
+				</dl>
+				<dl>
+					<dt>职业学院</dt>
+					<dd>
+						<a href="#">WEB前端工程师</a>
+					</dd>
+					<dd>
+						<a href="#">Python Web前端工程师</a>
+					</dd>
+					<dd>
+						<a href="#">Go语言工程师</a>
+					</dd>
+					<dd>
+						<a href="#">IOS工程师</a>
+					</dd>
+				</dl>
+				<dl>
+					<dt>职业学院</dt>
+					<dd>
+						<a href="#">WEB前端工程师</a>
+					</dd>
+					<dd>
+						<a href="#">Python Web前端工程师</a>
+					</dd>
+					<dd>
+						<a href="#">Go语言工程师</a>
+					</dd>
+					<dd>
+						<a href="#">IOS工程师</a>
+					</dd>
+				</dl>
+				<dl>
+					<dt>职业学院</dt>
+					<dd>
+						<a href="#">WEB前端工程师</a>
+					</dd>
+					<dd>
+						<a href="#">Python Web前端工程师</a>
+					</dd>
+					<dd>
+						<a href="#">Go语言工程师</a>
+					</dd>
+					<dd>
+						<a href="#">IOS工程师</a>
+					</dd>
+				</dl>
+				<div class="contact">
+					<p>服务热线：400-88888888</p>
+					<a href="javascript:;" class="footer_btn iphone">iPhone
+						<div class="submenu">
+							<i class="top_icon"></i>
+							<img src="img/app_img.png" alt="极客学院app二维码" />
+						</div>
+					</a>
+					<a href="javascript：;" class="footer_btn android">Android
+						<div class="submenu">
+							<i class="top_icon"></i>
+							<img src="img/app_img.png" alt="极客学院app二维码" />
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="copyright">
+				<p>(c) Copyright 2016 lenovo. All Rights Reserved. </p>
+				<img src="img/truthy_icon.png" />
+			</div>
+		</div>
+
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+	</body>
+
+</html>

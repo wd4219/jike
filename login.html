@@ -1,43 +1,65 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="UTF-8">
-		<title>用户注册页面</title>
-		<link rel="stylesheet" type="text/css" href="style/main.css"/>
+		<title>用户登录页面</title>
+		<link rel="stylesheet" type="text/css" href="style/main.css" />
 	</head>
+
 	<body>
 		<div class="login_page_content">
 			<div class="logo_box">
 				<a href="index.html" class="logo"><img src="img/logo.png" alt="logo" /></a>
 			</div>
-			
+
 			<div class="content clearfix">
 				<div class="left">
-					<h2>新用户注册</h2>
-					<input type="text" placeholder="手机/用户名/邮箱" class="text"/>
-					<input type="password"placeholder="输入6~32位密码" class="text"/>
-					<ul class="pwd_strength">
-						<li class="lower active">弱</li>
-						<li class="normal">中</li>
-						<li class="strong">强</li>
-					</ul>
-					<input type="text" placeholder="验证码" class="text small_text"/>
-					<input type="text"placeholder="动态码" class="text"/>
-					<input type="checkbox" id="agree" checked="checked"/><label for="agree">同意<a href="javascript:;">极客学院用户协议</a></label>
-					<input type="button" value="登录" class="login"/>
+					<div class="tab_nav">
+						<a href="javascript:;" class="active" id="normal_tab">登录</a>
+						<a href="javascript:;" id="mobie_tab">手机动态码登录</a>
+					</div>
+					<div id="normal_login_content" ><input type="text" placeholder="手机/用户名/邮箱" class="text" />
+						<input type="password" placeholder="输入6~32位密码" class="text" />
+						<input type="text" placeholder="验证码" class="text small_text" />
+						<div class="checkbox">
+							<input type="checkbox" id="autologin" /><label for="autologin">七天内免登录</label>
+							<a href="javascipt" class="forget_pwd">忘记密码</a>
+						</div>
+						<input type="button" value="登录" class="login" />
+					</div>
+					<div id="mobie_login_content" style="display: none;">
+						<input type="password" placeholder="请输入手机号" class="text" />
+						<input type="text" placeholder="验证码" class="text small_text" />
+						<input type="text" placeholder="动态码" class="text" />
+						<div class="checkbox">
+							<input type="checkbox" id="autologin" /><label for="autologin">记住手机号码</label>
+						</div>
+						<input type="button" value="登录" class="login" />
+					</div>
 				</div>
 				<div class="right">
-					<h2>已有账号&nbsp;<a href="javascript:javascript:;">直接登录</a></h2>
+					<h2>没有有账号&nbsp;<a href="register.html">新用户注册</a></h2>
 					<p class="liner"><span>合作方账号登录</span></p>
 					<ul class="other_login">
-						<li><a href="javascript:;"><span class="icon-QQ"></span></a></li>
-						<li><a href="javascript:;"><span class="icon-unie61d"></span></a></li>
-						<li><a href="javascript:;"><span class="icon-weixin"></span></a></li>
-						<li><a href="javascript:;"><span class="icon-baidu"></span></a></li>
+						<li>
+							<a href="javascript:;"><span class="icon-QQ"></span></a>
+						</li>
+						<li>
+							<a href="javascript:;"><span class="icon-unie61d"></span></a>
+						</li>
+						<li>
+							<a href="javascript:;"><span class="icon-weixin"></span></a>
+						</li>
+						<li>
+							<a href="javascript:;"><span class="icon-baidu"></span></a>
+						</li>
 					</ul>
 				</div>
-				
+
 			</div>
 		</div>
+		<script src="js/login.js" type="text/javascript" charset="utf-8"></script>
 	</body>
+
 </html>
