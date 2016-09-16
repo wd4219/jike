@@ -3,7 +3,7 @@
 
 	<head>
 		<meta charset="UTF-8" />
-		<title>个人资料</title>
+		<title>我的vip</title>
 		<link rel="stylesheet" type="text/css" href="style/main.css" />
 	</head>
 
@@ -83,12 +83,12 @@
 			<div class="set_user_info_slider">
 				<ul>
 					<li>
-						<a href="javascript:;" class="active">个人资料</a>
+						<a href="set_user_info.html" >个人资料</a>
 					</li>
 					<li>
 						<a href="javascript:;">认证学员</a><span class="label">未认证</span></li>
 					<li>
-						<a href="myvip.html">我的VIP</a>
+						<a href="javascript:;" class="active">我的VIP</a>
 					</li>
 					<li>
 						<a href="javascript:;">我的极客币</a>
@@ -108,95 +108,144 @@
 				</ul>
 			</div>
 			<div class="set_user_info_content">
-				<h2 class="user_title">个人资料</h2>
-				<div class="essential_info">
-					<h3>基本信息</h3>
-					<form action="#" method="post" class="basic_form">
-						<ul>
-							<li>
-								<label for="">头像</label>
-								<div class="input_box">
-									<a href="javascript:;" class="user_picture" ><img src="img/login_icon.jpg" alt="头像" />修改
-									</a>
-								</div>
+				<h2 class="user_title">我的VIP</h2>
+				<div class="vip_content">
+					<div class="time_panel">
+						<p class="vip_status">VIP会员资格已到期</p>
+						<div class="time_bar">
+							<a href="javascript:;">续费</a>
+							<div class="time_bar_now">
+								
+							</div>
+						</div>
+						<span class="remain_day">剩余<em>0</em>天</span>
+					</div>
+					<div class="f_code_panel clearfix">
+						<div class="left">
+							<p class="f_change">F码兑换VIP</p>
+							<input type="text" placeholder="请输入F码"/>
+							<a href="javascript:;" class="btn">兑换</a>
+							<p class="f_des">「F码」可以在各种活动中领取，或向其他会员索要。</p>
+						</div>
+						<div class="right clearfix">
+							<div class="weixin_des">
+								<p>关注极客学院官方微信</p>
+								<p>福利活动全知道</p>
+							</div>
+							<div class="img">
+								<img src="img/code.png" alt="极客学院官方微信二维码"/>
+							</div>
+						</div>
+					</div>
+					<div class="change_panel">
+						<ul class="change_nav clearfix">
+							<li class="active">VIP兑换记录</li>
+							<li>F码兑换记录</li>
+							<li>已领取F码<span class="f_num">0</span></li>
+						</ul>
+						<ul class="change_content">
+							<li class="vip_change_content" >
+								<table>
+									<thead>
+										<tr>
+											<th style="width: 80px;">日期</th>
+											<th style="width: 25px;">数量</th>
+											<th style="width: 50px;">种类</th>
+											<th>开始时间</th>
+											<th>结束时间</th>
+											<th>备注</th>	
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>2016-05-15 10:52:45</td>
+											<td>30</td>
+											<td>体验VIP</td>
+											<td>2016-06-20 23:59:59</td>
+											<td>2016-07-20 23:59:59</td>
+											<td>赠送获得日会员,原因:邀请好友赠送30天体验会员</td>	
+										</tr>
+										<tr>
+											<td>2016-05-15 10:52:45</td>
+											<td>30</td>
+											<td>体验VIP</td>
+											<td>2016-06-20 23:59:59</td>
+											<td>2016-07-20 23:59:59</td>
+											<td>赠送获得日会员,原因:邀请好友赠送30天体验会员</td>	
+										</tr>
+										<tr>
+											<td>2016-05-15 10:52:45</td>
+											<td>30</td>
+											<td>体验VIP</td>
+											<td>2016-06-20 23:59:59</td>
+											<td>2016-07-20 23:59:59</td>
+											<td>赠送获得日会员,原因:邀请好友赠送30天体验会员</td>	
+										</tr>
+										<tr>
+											<td>2016-05-15 10:52:45</td>
+											<td>30</td>
+											<td>体验VIP</td>
+											<td>2016-06-20 23:59:59</td>
+											<td>2016-07-20 23:59:59</td>
+											<td>赠送获得日会员,原因:邀请好友赠送30天体验会员</td>	
+										</tr>
+										<tr>
+											<td>2016-05-15 10:52:45</td>
+											<td>30</td>
+											<td>体验VIP</td>
+											<td>2016-06-20 23:59:59</td>
+											<td>2016-07-20 23:59:59</td>
+											<td>赠送获得日会员,原因:邀请好友赠送30天体验会员</td>	
+										</tr>
+										<tr>
+											<td>2016-05-15 10:52:45</td>
+											<td>30</td>
+											<td>体验VIP</td>
+											<td>2016-06-20 23:59:59</td>
+											<td>2016-07-20 23:59:59</td>
+											<td>赠送获得日会员,原因:邀请好友赠送30天体验会员</td>	
+										</tr>
+										
+									</tbody>
+									
+								</table>
 							</li>
-							<li>
-								<label for="username">用户名</label>
-								<div class="input_box" >
-									<span>某某某</span>
-									<a href="javascript:;" id="edit_username" class="edit_username">修改用户名</a>
-								</div>
-								<div class="input_box" id="hidden_box" style="display: none;">
-									<input type="text" id="username"/>
-									<a href="javascript:;" class="btn active">确定</a><a href="javascript:;"class="btn">取消</a><i>用户名作为在网站内的昵称显示，只可修改一次</i>
-								</div>
+							<li class="f_change_content" style="display: none;">
+								<table>
+									<thead>
+										<tr>
+											<th>F码</th>
+											<th>兑换时间</th>
+											<th>兑换结果</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>60940s061W5</td>
+											<td>2016-03-18</td>
+											<td>30天 VIP</td>
+										</tr>
+									</tbody>
+								</table>
 							</li>
-							<li>
-								<label for="name">真实姓名</label>
-								<div class="input_box"><input type="text" value="某某某" id="name" />
-									<i>仅用户自己可见</i></div>
-							</li>
-							<li><label>性别</label>
-								<div class="input_box">
-									<span>
-										<select name="sex">
-											<option value="保密">保密</option>
-											<option value="男">男</option>
-											<option value="女">女</option>
-										</select>
-									</span>
-								</div>
-							</li>
-							<li>
-								<label for="birthday">生日</label>
-								<div class="input_box">
-									<input type="date" id="birthday"/>
-								</div>
-							</li>
-							<li>
-								<label for="address">现居住地</label>
-								<div class="input_box">
-									<span>
-										<select name="province">
-											<option value="省">省</option>
-										</select>
-									</span>
-									<span>
-										<select name="city">
-											<option value="市">市</option>
-										</select>
-									</span>
-								</div>
-							</li>
-							<li>
-								<label for="personal_des">个人简介</label>
-								<div class="input_box">
-									<textarea id="personal_des" maxlength="200" placeholder="一句话介绍一下自己吧，让别人更了解你"></textarea>
-									<p class="textarea_num">还可以输入<span class="personal_des_num">200</span>字</p>
-								</div>
+							<li class="recive_f" style="display: none;">
+								<table>
+									<thead>
+										<tr>
+											<th>F码</th>
+											<th>兑换时间</th>
+											<th>有效时间</th>
+											<th>状态</th>
+											<th>好友奖励</th>
+											<th>我的奖励</th>
+										</tr>
+									</thead>
+									<tbody>
+										
+									</tbody>
+								</table>
 							</li>
 						</ul>
-						<button type="submit" class="login">保存</button>
-					</form>
-				</div>
-				<div class="career_info">
-					<h3>职业信息</h3>
-					<ul>
-						<li><label>职业状态</label><a href="javascript:;">添加职业状态</a></li>
-						<li><label>职业方向</label><a href="javascript:;">添加感兴趣的职业方向</a></li>
-					</ul>
-				</div>
-				<div class="individuation_domain_name clearfix">
-					<h3>个性域名</h3>
-					<div class="domain"><label>我的个性域名</label><a href="javascript:;" >设置个性域名</a><span class="domain_url_area" style="display: none;">http://my.jikexueyuan.com</span></div>
-					<div class="domain_input_box">
-						<span>my.jikexueyuan.com</span>
-						<input type="text" />
-						<i>支持小写英文字母/下划线/数字，25个字符以内，设定后补课修改</i>
-						<div class="btns">
-							<a href="javascript:;" class="btn active">确定</a>
-						<a href="javascript:;" class="btn">取消</a>
-						</div>
 					</div>
 				</div>
 			</div>
@@ -289,7 +338,12 @@
 				<img src="img/truthy_icon.png" />
 			</div>
 		</div>
-
+		<div class="sliderbar iconfont">
+		<span class="icon-fanhuidingbu" id="backtop"></span>
+		<span class="icon-phone"></span>
+		<span class="icon-weixin"></span>
+		<span class="icon-lianxiwomen"></span>
+	</div>
 		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
 	</body>
 

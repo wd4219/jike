@@ -51,18 +51,37 @@
   padding-left: 20px;
   color: #555;
 }
-/* line 46, ../sass/set_user_info.scss */
-.set_user_info_content .essential_info h3 {
+/* line 45, ../sass/set_user_info.scss */
+.set_user_info_content h3 {
   border-left: 2px solid #0DBD0D;
   margin: 30px 0;
   padding-left: 20px;
   font-size: 14px;
 }
-/* line 52, ../sass/set_user_info.scss */
+/* line 51, ../sass/set_user_info.scss */
+.set_user_info_content .btn {
+  background: #fff;
+  color: #35B558;
+  width: 50px;
+  font-size: 14px;
+  line-height: 30px;
+  font-family: "microsoft yahei";
+  display: inline-block;
+}
+/* line 54, ../sass/set_user_info.scss */
+.set_user_info_content .btn.active {
+  color: #fff;
+  background: #35B558;
+}
+/* line 64, ../sass/set_user_info.scss */
+.set_user_info_content .essential_info {
+  border-bottom: 1px solid #ccc;
+}
+/* line 66, ../sass/set_user_info.scss */
 .set_user_info_content .essential_info .basic_form {
   text-align: center;
 }
-/* line 54, ../sass/set_user_info.scss */
+/* line 68, ../sass/set_user_info.scss */
 .set_user_info_content .essential_info .basic_form li {
   height: 30px;
   line-height: 30px;
@@ -70,30 +89,30 @@
   position: relative;
   margin-bottom: 20px;
 }
-/* line 60, ../sass/set_user_info.scss */
+/* line 74, ../sass/set_user_info.scss */
 .set_user_info_content .essential_info .basic_form li:first-child {
   height: 70px;
   line-height: 70px;
   overflow: hidden;
 }
-/* line 65, ../sass/set_user_info.scss */
+/* line 79, ../sass/set_user_info.scss */
 .set_user_info_content .essential_info .basic_form li:last-child {
   height: 80px;
   line-height: 20px;
 }
-/* line 69, ../sass/set_user_info.scss */
+/* line 83, ../sass/set_user_info.scss */
 .set_user_info_content .essential_info .basic_form li label {
   width: 100px;
   text-align: right;
   display: block;
   float: left;
 }
-/* line 75, ../sass/set_user_info.scss */
+/* line 89, ../sass/set_user_info.scss */
 .set_user_info_content .essential_info .basic_form li .input_box {
   margin-left: 20px;
   float: left;
 }
-/* line 78, ../sass/set_user_info.scss */
+/* line 92, ../sass/set_user_info.scss */
 .set_user_info_content .essential_info .basic_form li .input_box .user_picture {
   width: 50px;
   height: 50px;
@@ -105,17 +124,17 @@
   background: rgba(0, 0, 0, 0.8);
   color: #fff;
 }
-/* line 89, ../sass/set_user_info.scss */
+/* line 103, ../sass/set_user_info.scss */
 .set_user_info_content .essential_info .basic_form li .input_box .user_picture:hover img {
   display: none;
 }
-/* line 93, ../sass/set_user_info.scss */
+/* line 107, ../sass/set_user_info.scss */
 .set_user_info_content .essential_info .basic_form li .input_box .user_picture img {
   width: 50px;
   height: 50px;
   border-radius: 50%;
 }
-/* line 99, ../sass/set_user_info.scss */
+/* line 113, ../sass/set_user_info.scss */
 .set_user_info_content .essential_info .basic_form li .input_box input,
 .set_user_info_content .essential_info .basic_form li .input_box select {
   border: 1px solid #ccc;
@@ -126,43 +145,97 @@
   line-height: 30px;
   width: 130px;
   margin-right: 20px;
+  padding-left: 5px;
 }
-/* line 110, ../sass/set_user_info.scss */
+/* line 125, ../sass/set_user_info.scss */
 .set_user_info_content .essential_info .basic_form li .input_box .edit_username {
   position: absolute;
   left: 273px;
   top: 0;
   color: #2d85ca;
 }
-/* line 116, ../sass/set_user_info.scss */
+/* line 131, ../sass/set_user_info.scss */
 .set_user_info_content .essential_info .basic_form li .input_box textarea {
   height: 50px;
   padding: 10px;
-  width: 500px;
+  width: 560px;
 }
-/* line 121, ../sass/set_user_info.scss */
+/* line 136, ../sass/set_user_info.scss */
 .set_user_info_content .essential_info .basic_form li .input_box .textarea_num {
   position: absolute;
-  right: 115px;
+  right: 55px;
   color: #BBBBBB;
 }
-/* line 126, ../sass/set_user_info.scss */
+/* line 141, ../sass/set_user_info.scss */
 .set_user_info_content .essential_info .basic_form li .input_box i {
   color: #BBBBBB;
 }
-/* line 131, ../sass/set_user_info.scss */
-.set_user_info_content .essential_info .basic_form .btn {
-  background: #fff;
-  color: #35B558;
+/* line 146, ../sass/set_user_info.scss */
+.set_user_info_content .essential_info .basic_form .login {
   width: 200px;
-  font-size: 14px;
-  line-height: 30px;
-  font-family: "microsoft yahei";
-  display: inline-block;
   margin-bottom: 30px;
 }
-/* line 134, ../sass/set_user_info.scss */
-.set_user_info_content .essential_info .basic_form .btn:hover {
-  color: #fff;
-  background: #35B558;
+/* line 153, ../sass/set_user_info.scss */
+.set_user_info_content .career_info li {
+  line-height: 30px;
+  height: 30px;
+}
+/* line 156, ../sass/set_user_info.scss */
+.set_user_info_content .career_info li label {
+  width: 100px;
+  height: 30px;
+  text-align: right;
+  display: block;
+  float: left;
+  margin-right: 20px;
+}
+/* line 164, ../sass/set_user_info.scss */
+.set_user_info_content .career_info li a {
+  color: #00A8FF;
+}
+/* line 169, ../sass/set_user_info.scss */
+.set_user_info_content .individuation_domain_name {
+  margin-bottom: 30px;
+}
+/* line 171, ../sass/set_user_info.scss */
+.set_user_info_content .individuation_domain_name .domain {
+  height: 30px;
+  line-height: 30px;
+}
+/* line 174, ../sass/set_user_info.scss */
+.set_user_info_content .individuation_domain_name .domain label {
+  width: 100px;
+  height: 30px;
+  text-align: right;
+  display: block;
+  float: left;
+  margin-right: 20px;
+}
+/* line 182, ../sass/set_user_info.scss */
+.set_user_info_content .individuation_domain_name .domain a {
+  color: #00A8FF;
+}
+/* line 186, ../sass/set_user_info.scss */
+.set_user_info_content .individuation_domain_name .domain_input_box {
+  display: none;
+  line-height: 30px;
+  margin-left: 30px;
+}
+/* line 190, ../sass/set_user_info.scss */
+.set_user_info_content .individuation_domain_name .domain_input_box input {
+  margin: 0 20px;
+  line-height: 30px;
+  height: 30px;
+  padding: 0;
+  padding-left: 5px;
+  box-sizing: border-box;
+  width: 130px;
+}
+/* line 199, ../sass/set_user_info.scss */
+.set_user_info_content .individuation_domain_name .domain_input_box i {
+  color: #BBBBBB;
+}
+/* line 202, ../sass/set_user_info.scss */
+.set_user_info_content .individuation_domain_name .domain_input_box .btns {
+  margin: 20px 0;
 }
