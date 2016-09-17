@@ -280,3 +280,117 @@
 .web_engineer_page_body .right_content .noraml_problem .more_btn:hover {
   color: #0DBD0D;
 }
+
+/* line 244, ../sass/web_engineer_page.scss */
+.offline_message {
+  position: fixed;
+  bottom: 0;
+  right: 10px;
+  display: block;
+  line-height: 45px;
+  height: 45px;
+  background: #53ca9d;
+  width: 140px;
+  font-size: 16px;
+  color: #fff;
+}
+/* line 255, ../sass/web_engineer_page.scss */
+.offline_message span {
+  width: 40px;
+  display: inline-block;
+  text-align: center;
+  font-family: iconfont;
+  border-right: 1px solid #BBBBBB;
+  margin-right: 15px;
+}
+
+/* line 268, ../sass/web_engineer_page.scss */
+.message_content_pop {
+  width: 354px;
+  height: 530px;
+  position: fixed;
+  right: 40px;
+  bottom: 0;
+  background: #f2f3f5;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+/* line 276, ../sass/web_engineer_page.scss */
+.message_content_pop h2 {
+  line-height: 66px;
+  border-bottom: 1px solid #E4E4E4;
+  background: #53ca9d;
+  font-size: 16px;
+  padding-left: 20px;
+  color: #fff;
+}
+/* line 284, ../sass/web_engineer_page.scss */
+.message_content_pop p, .message_content_pop label, .message_content_pop input, .message_content_pop textarea {
+  padding: 0 20px;
+}
+/* line 287, ../sass/web_engineer_page.scss */
+.message_content_pop p, .message_content_pop label {
+  line-height: 18px;
+  margin: 20px 0;
+  color: #666666;
+  font-size: 14px;
+}
+/* line 293, ../sass/web_engineer_page.scss */
+.message_content_pop label {
+  display: block;
+  margin: 10px 0;
+}
+/* line 296, ../sass/web_engineer_page.scss */
+.message_content_pop label em {
+  color: red;
+}
+/* line 300, ../sass/web_engineer_page.scss */
+.message_content_pop input, .message_content_pop textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  border-top: 1px solid #E4E4E4;
+  border-bottom: 1px solid #e4e4e4;
+  outline: none;
+}
+/* line 308, ../sass/web_engineer_page.scss */
+.message_content_pop input {
+  line-height: 45px;
+  font-size: 16px;
+}
+/* line 312, ../sass/web_engineer_page.scss */
+.message_content_pop textarea {
+  height: 100px;
+  padding-top: 15px;
+  margin-bottom: 25px;
+}
+/* line 317, ../sass/web_engineer_page.scss */
+.message_content_pop .message_btns {
+  width: 100%;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+/* line 322, ../sass/web_engineer_page.scss */
+.message_content_pop .message_submit_btn {
+  height: 50px;
+  line-height: 50px;
+  font-size: 18px;
+  background: #53CA9D;
+  border: none;
+  text-align: center;
+  border-radius: 5px;
+  color: #fff;
+  font-family: "microsoft yahei";
+  width: 100%;
+  box-sizing: border-box;
+  cursor: pointer;
+  outline: none;
+}
+/* line 337, ../sass/web_engineer_page.scss */
+.message_content_pop .pop_close_arrow {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  color: #F2F3F5;
+  cursor: pointer;
+}

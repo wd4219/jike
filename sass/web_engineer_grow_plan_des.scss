@@ -1,0 +1,207 @@
+@charset "utf-8";
+
+.web_engineer_course_detail_body{
+    .breadcrumb{
+        font-size: 14px;
+        color: #666666;
+        a{
+            color: #666;
+            &:hover{
+                color: #0DBD0D;
+                text-decoration: none;
+            }
+        }
+    }
+    .introduction{
+        padding: 15px;
+        background: #fff;
+        border: 1px solid #ccc;
+    }
+    .left_img{
+        float: left;
+        width: 330px;
+        img{
+            width: 329px;
+        }
+    }
+    .right_course_detail{
+        float: left;
+        width: 618px;
+        margin-left: 20px;
+        font-size: 14px;
+         h3 {
+            font-size: 24px;
+            line-height: 36px;
+            color: #333;
+            margin-bottom: 2px;
+            span {
+                font-size: 12px;
+                padding: 1px 3px;
+                margin-left: 10px;
+                border-radius: 2px;
+                background: #F9D279;
+                color: #fff;
+            }
+        }
+        .teachers {
+            display: block;
+            color: #999999;
+            line-height: 21px;
+            margin-bottom: 15px;
+        }
+        .now_price {
+            color: #FF0000;
+            line-height: 30px;
+            font-size: 20px;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+        .old_price {
+            color: #bebebe;
+            text-decoration: line-through;
+        }
+        .vip_price{
+            line-height: 18px;
+            border: 1px solid #FF5C00;
+            color: #FF5C00;
+            margin-left:20px;
+            padding-right: 5px;
+            em{
+                padding: 0 5px;
+               background: #FF5C00;
+               color: #fff; 
+            }
+        }
+        .detail_bottom{
+            margin-top: 20px;
+            .btns{
+                float: left;
+                .btn{
+                    line-height: 40px;
+                    height: 40px;
+                    font-size: 18px;
+                    padding: 0 20px;
+                    &.active{
+                        background: #35B558;
+                        color: #fff;
+                    }
+                }
+            }
+            .grow_nums{
+                float: right;
+                margin-top: 28px;
+                font-size: 12px;
+                color: #BBBBBB;
+                span{
+                    padding: 0 20px;
+                    border-right: 1px solid #bbb;
+                    &:last-child{
+                        border: none;
+                    }
+                }
+            }
+        }
+        
+        .course_des{
+            margin: 20px 0;
+            color: #9F9F9F;
+        }
+        
+    }
+    
+}
+.web_engineer_course_detail_content{
+    margin-top: 20px;
+    .left_content{
+        border: 1px solid #ccc;
+        margin-right: 20px;
+        background:#fff;
+        width: 745px;
+        box-sizing: border-box;
+        float: left;
+        .web_tab_nav{
+            padding-left: 30px;
+            line-height: 50px;
+            border-bottom: 1px solid #ccc;
+            font-size: 16px;
+            li{
+                height: 50px;
+                line-height: 50px;
+                padding: 0 20px;
+                float: left;
+                cursor: pointer;
+                box-sizing:border-box;  
+                margin-right:20px; 
+                &:hover,&.active{
+                    border-bottom: 2px solid #0DBD0D;
+                }
+                span{
+                    font-size: 12px;
+                    background: #35B558;
+                    color: #fff;
+                    padding: 0px 3px;
+                    border-radius: 3px;
+                    margin-left: 15px;
+                    position:relative;
+                    i{
+                        position: absolute;
+                        display: block;
+                        border-width: 3px 5px;
+                        border-color: transparent #35B558 transparent transparent;
+                        border-style: solid; 
+                        top: 5px;
+                        left: -10px;
+                    }
+                }
+            }
+        }
+        .img_show{
+            width: 745px;
+            box-sizing: border-box;
+            padding: 0 30px;
+            padding-bottom: 40px;
+            img{
+                width: 100%;
+            }
+        }        
+    }
+    .right_content{
+        float: left;
+        width: 235px;
+        background: #fff;
+        box-sizing: border-box;
+        border:1px solid #ccc;
+        .teacher_info_title{
+            height: 50px;
+            line-height: 50px;
+            border-bottom: 1px solid #ccc;
+            font-size: 16px;
+            padding-left: 20px;
+        }
+        .teacher_list{
+            padding: 0 20px;
+            margin-bottom: -1px;
+            .teacher_list_item{
+                padding: 20px 0;
+                border-bottom: 1px solid #ccc;
+                img{
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    float: left;
+                    margin-right: 20px;
+                }
+                .item_top_des{
+                    line-height: 20px;
+                    padding-top: 10px;
+                }
+                p{
+                    margin-top: 20px;
+                    line-height: 18px;
+                    color: #9F9F9F;
+                }
+            }
+            
+        }
+    }
+}

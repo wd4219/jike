@@ -1,39 +1,40 @@
-/* line 5, ../sass/mystudycenter.scss */
-.study_center_body .breadcrumb {
+/* line 3, ../sass/mystudycenter.scss */
+.breadcrumb {
   height: 20px;
   line-height: 20px;
   color: #bbbbbb;
   margin-bottom: 20px;
 }
-/* line 10, ../sass/mystudycenter.scss */
-.study_center_body .breadcrumb li {
+/* line 8, ../sass/mystudycenter.scss */
+.breadcrumb li {
   float: left;
 }
-/* line 12, ../sass/mystudycenter.scss */
-.study_center_body .breadcrumb li span {
+/* line 10, ../sass/mystudycenter.scss */
+.breadcrumb li span {
   padding: 0 2px;
 }
-/* line 15, ../sass/mystudycenter.scss */
-.study_center_body .breadcrumb li a {
+/* line 13, ../sass/mystudycenter.scss */
+.breadcrumb li a {
   color: #ccc;
 }
-/* line 17, ../sass/mystudycenter.scss */
-.study_center_body .breadcrumb li a:hover {
+/* line 15, ../sass/mystudycenter.scss */
+.breadcrumb li a:hover {
   text-decoration: underline;
 }
-/* line 23, ../sass/mystudycenter.scss */
+
+/* line 22, ../sass/mystudycenter.scss */
 .study_center_body .study_center_silder {
   background: #fff;
   width: 210px;
   float: left;
   margin-right: 15px;
 }
-/* line 28, ../sass/mystudycenter.scss */
+/* line 27, ../sass/mystudycenter.scss */
 .study_center_body .study_center_silder .student_info {
   height: 85px;
   font-size: 0;
 }
-/* line 32, ../sass/mystudycenter.scss */
+/* line 30, ../sass/mystudycenter.scss */
 .study_center_body .study_center_silder .student_info img {
   margin: 0 20px;
   height: 50px;
@@ -41,69 +42,69 @@
   vertical-align: middle;
   display: inline-block;
 }
-/* line 39, ../sass/mystudycenter.scss */
+/* line 37, ../sass/mystudycenter.scss */
 .study_center_body .study_center_silder .student_info span {
   line-height: 85px;
   font-size: 12px;
   display: inline-block;
 }
-/* line 45, ../sass/mystudycenter.scss */
+/* line 43, ../sass/mystudycenter.scss */
 .study_center_body .study_center_silder li {
   border-top: 1px solid #ccc;
   height: 48px;
   line-height: 48px;
 }
-/* line 49, ../sass/mystudycenter.scss */
+/* line 47, ../sass/mystudycenter.scss */
 .study_center_body .study_center_silder li a {
   display: block;
   padding-left: 20px;
 }
-/* line 52, ../sass/mystudycenter.scss */
+/* line 50, ../sass/mystudycenter.scss */
 .study_center_body .study_center_silder li a:hover {
   color: #0DBD0D;
   background: #F5F5F5;
 }
-/* line 55, ../sass/mystudycenter.scss */
+/* line 53, ../sass/mystudycenter.scss */
 .study_center_body .study_center_silder li a:hover span {
   color: #0DBD0D;
 }
-/* line 61, ../sass/mystudycenter.scss */
+/* line 58, ../sass/mystudycenter.scss */
 .study_center_body .study_center_silder li span {
   font-size: 14px;
   padding: 0 10px;
   font-family: iconfont;
   color: #BBBBBB;
 }
-/* line 69, ../sass/mystudycenter.scss */
+/* line 66, ../sass/mystudycenter.scss */
 .study_center_body .study_center_content {
   float: left;
   width: 775px;
 }
-/* line 72, ../sass/mystudycenter.scss */
+/* line 69, ../sass/mystudycenter.scss */
 .study_center_body .study_center_content .study_tab_nav {
   background: #fff;
   height: 38px;
 }
-/* line 75, ../sass/mystudycenter.scss */
+/* line 72, ../sass/mystudycenter.scss */
 .study_center_body .study_center_content .study_tab_nav ul {
   font-size: 0;
 }
-/* line 78, ../sass/mystudycenter.scss */
+/* line 75, ../sass/mystudycenter.scss */
 .study_center_body .study_center_content .study_tab_nav li {
   font-size: 14px;
   display: inline-block;
   line-height: 36px;
   padding: 0 15px;
 }
-/* line 83, ../sass/mystudycenter.scss */
+/* line 80, ../sass/mystudycenter.scss */
 .study_center_body .study_center_content .study_tab_nav li.acitve {
   border-bottom: 2px solid #0DBD0D;
 }
-/* line 90, ../sass/mystudycenter.scss */
+/* line 87, ../sass/mystudycenter.scss */
 .study_center_body .study_center_container .study_center_course_list {
   margin-right: -5px;
 }
-/* line 93, ../sass/mystudycenter.scss */
+/* line 90, ../sass/mystudycenter.scss */
 .study_center_body .study_center_container .study_center_course_list_item {
   width: 250px;
   float: left;
@@ -112,7 +113,7 @@
   position: relative;
   height: 223px;
 }
-/* line 102, ../sass/mystudycenter.scss */
+/* line 98, ../sass/mystudycenter.scss */
 .study_center_body .study_center_container .study_center_course_list_item_content {
   width: 246px;
   margin: 2px auto 0;
@@ -121,16 +122,16 @@
   background: #fff;
   transition: height 0.4s;
 }
-/* line 109, ../sass/mystudycenter.scss */
+/* line 105, ../sass/mystudycenter.scss */
 .study_center_body .study_center_container .study_center_course_list_item_content img {
   width: 246px;
 }
-/* line 112, ../sass/mystudycenter.scss */
+/* line 108, ../sass/mystudycenter.scss */
 .study_center_body .study_center_container .study_center_course_list_item_content .img {
   position: relative;
   display: inline-block;
 }
-/* line 115, ../sass/mystudycenter.scss */
+/* line 111, ../sass/mystudycenter.scss */
 .study_center_body .study_center_container .study_center_course_list_item_content .img span {
   position: absolute;
   top: -4px;
@@ -141,11 +142,11 @@
   display: none;
   z-index: 10012;
 }
-/* line 124, ../sass/mystudycenter.scss */
+/* line 120, ../sass/mystudycenter.scss */
 .study_center_body .study_center_container .study_center_course_list_item_content .img span.active {
   display: block;
 }
-/* line 128, ../sass/mystudycenter.scss */
+/* line 124, ../sass/mystudycenter.scss */
 .study_center_body .study_center_container .study_center_course_list_item_content .img .player {
   position: absolute;
   top: 50%;
@@ -155,10 +156,10 @@
   width: 40px;
   opacity: 0;
   transform: scale(1);
-  transition: opacity .4s,transform .4s;
+  transition: opacity 0.4s,transform 0.4s;
   z-index: 10011;
 }
-/* line 140, ../sass/mystudycenter.scss */
+/* line 136, ../sass/mystudycenter.scss */
 .study_center_body .study_center_container .study_center_course_list_item_content .img .schedule {
   position: absolute;
   bottom: 10px;
@@ -168,91 +169,92 @@
   background: #999999;
   color: #fff;
 }
-/* line 149, ../sass/mystudycenter.scss */
+/* line 145, ../sass/mystudycenter.scss */
 .study_center_body .study_center_container .study_center_course_list_item_content .img .mark {
   position: absolute;
   display: block;
   opacity: 0;
-  transition: opacity .4s;
+  transition: opacity 0.4s;
   z-index: 10010;
 }
-/* line 157, ../sass/mystudycenter.scss */
+/* line 153, ../sass/mystudycenter.scss */
 .study_center_body .study_center_container .study_center_course_list_item_content .content {
   padding: 10px;
   line-height: 18px;
   color: #808080;
 }
-/* line 161, ../sass/mystudycenter.scss */
+/* line 157, ../sass/mystudycenter.scss */
 .study_center_body .study_center_container .study_center_course_list_item_content .content .title {
   height: 40px;
   display: block;
   color: #333333;
   font-size: 14px;
 }
-/* line 167, ../sass/mystudycenter.scss */
+/* line 163, ../sass/mystudycenter.scss */
 .study_center_body .study_center_container .study_center_course_list_item_content .content p {
-  height: 0px;
+  height: 0;
   overflow: hidden;
   transition: height 0.4s;
 }
-/* line 172, ../sass/mystudycenter.scss */
+/* line 168, ../sass/mystudycenter.scss */
 .study_center_body .study_center_container .study_center_course_list_item_content .content i {
   font-family: iconfont;
 }
-/* line 175, ../sass/mystudycenter.scss */
+/* line 171, ../sass/mystudycenter.scss */
 .study_center_body .study_center_container .study_center_course_list_item_content .content span {
   display: inline-block;
   margin: 5px 0;
   width: 50%;
 }
-/* line 180, ../sass/mystudycenter.scss */
+/* line 176, ../sass/mystudycenter.scss */
 .study_center_body .study_center_container .study_center_course_list_item_content .content .icons {
   display: inline-block;
   float: right;
   margin: 5px 0;
 }
-/* line 185, ../sass/mystudycenter.scss */
+/* line 181, ../sass/mystudycenter.scss */
 .study_center_body .study_center_container .study_center_course_list_item_content .content .study_num {
   float: right;
   text-align: right;
   display: none;
 }
-/* line 190, ../sass/mystudycenter.scss */
+/* line 186, ../sass/mystudycenter.scss */
 .study_center_body .study_center_container .study_center_course_list_item_content .content .study_hight {
   display: none;
 }
-/* line 194, ../sass/mystudycenter.scss */
+/* line 190, ../sass/mystudycenter.scss */
 .study_center_body .study_center_container .study_center_course_list_item_content:hover {
   height: 308px;
   border: 1px solid #0DBD0D;
   border-top: 0;
 }
-/* line 198, ../sass/mystudycenter.scss */
-.study_center_body .study_center_container .study_center_course_list_item_content:hover .study_num, .study_center_body .study_center_container .study_center_course_list_item_content:hover .study_hight {
+/* line 194, ../sass/mystudycenter.scss */
+.study_center_body .study_center_container .study_center_course_list_item_content:hover .study_num,
+.study_center_body .study_center_container .study_center_course_list_item_content:hover .study_hight {
   display: inline-block;
 }
-/* line 201, ../sass/mystudycenter.scss */
+/* line 198, ../sass/mystudycenter.scss */
 .study_center_body .study_center_container .study_center_course_list_item_content:hover p {
   height: 54px;
 }
-/* line 204, ../sass/mystudycenter.scss */
+/* line 201, ../sass/mystudycenter.scss */
 .study_center_body .study_center_container .study_center_course_list_item_content:hover .player {
   opacity: 1;
   transform: scale(1.4);
 }
-/* line 208, ../sass/mystudycenter.scss */
+/* line 205, ../sass/mystudycenter.scss */
 .study_center_body .study_center_container .study_center_course_list_item_content:hover .mark {
   opacity: 1;
 }
-/* line 213, ../sass/mystudycenter.scss */
+/* line 210, ../sass/mystudycenter.scss */
 .study_center_body .study_center_container .page_nav {
   height: 32px;
   line-height: 32px;
   font-size: 0;
   text-align: center;
-  margin: 30px  0 50px;
+  margin: 30px 0 50px;
 }
-/* line 219, ../sass/mystudycenter.scss */
+/* line 216, ../sass/mystudycenter.scss */
 .study_center_body .study_center_container .page_nav li {
   cursor: pointer;
   font-size: 12px;
@@ -261,21 +263,21 @@
   padding: 0 12px;
   margin-right: 10px;
 }
-/* line 220, ../sass/mystudycenter.scss */
+/* line 217, ../sass/mystudycenter.scss */
 .study_center_body .study_center_container .page_nav li:first-child, .study_center_body .study_center_container .page_nav li:last-child {
   padding: 0 20px;
 }
-/* line 223, ../sass/mystudycenter.scss */
+/* line 221, ../sass/mystudycenter.scss */
 .study_center_body .study_center_container .page_nav li.un_active {
   cursor: auto;
   color: #DDDDDD;
 }
-/* line 226, ../sass/mystudycenter.scss */
+/* line 224, ../sass/mystudycenter.scss */
 .study_center_body .study_center_container .page_nav li.un_active:hover {
   background: #fff;
   color: #DDDDDD;
 }
-/* line 231, ../sass/mystudycenter.scss */
+/* line 229, ../sass/mystudycenter.scss */
 .study_center_body .study_center_container .page_nav li:hover, .study_center_body .study_center_container .page_nav li.active {
   background: #35B558;
   color: #fff;

@@ -1,118 +1,114 @@
 @charset "utf-8";
-
-.study_center_body
-{
-    .breadcrumb{
-        height: 20px;
-        line-height: 20px;
-        color: #bbbbbb;
-        margin-bottom: 20px;
-        li{
-            float:left;
-            span{
-                padding: 0 2px;
-            }
-            a{
-                color: #ccc;
-                &:hover{
-                    text-decoration: underline;
-                }
+//面包屑导航
+.breadcrumb {
+    height: 20px;
+    line-height: 20px;
+    color: #bbbbbb;
+    margin-bottom: 20px;
+    li {
+        float: left;
+        span {
+            padding: 0 2px;
+        }
+        a {
+            color: #ccc;
+            &:hover {
+                text-decoration: underline;
             }
         }
     }
-    .study_center_silder{
+}
+.study_center_body {
+    .study_center_silder {
         background: #fff;
         width: 210px;
         float: left;
         margin-right: 15px;
-        .student_info{
+        .student_info {
             height: 85px;
-            
             font-size: 0;
-            img{
+            img {
                 margin: 0 20px;
                 height: 50px;
                 width: 50px;
                 vertical-align: middle;
                 display: inline-block;
             }
-            span{
+            span {
                 line-height: 85px;
                 font-size: 12px;
                 display: inline-block;
             }
         }
-        li{
+        li {
             border-top: 1px solid #ccc;
             height: 48px;
             line-height: 48px;
-            a{
+            a {
                 display: block;
                 padding-left: 20px;
-                &:hover{
+                &:hover {
                     color: #0DBD0D;
                     background: #F5F5F5;
-                    span{
+                    span {
                         color: #0DBD0D;
                     }
                 }
-                
             }
-            span{
+            span {
                 font-size: 14px;
-                padding: 0 10px ;
+                padding: 0 10px;
                 font-family: iconfont;
                 color: #BBBBBB;
             }
         }
     }
-    .study_center_content{
+    .study_center_content {
         float: left;
         width: 775px;
-        .study_tab_nav{
+        .study_tab_nav {
             background: #fff;
             height: 38px;
-            ul{
+            ul {
                 font-size: 0;
             }
-            li{
+            li {
                 font-size: 14px;
                 display: inline-block;
                 line-height: 36px;
                 padding: 0 15px;
-                &.acitve{
+                &.acitve {
                     border-bottom: 2px solid #0DBD0D;
                 }
             }
         }
     }
-    .study_center_container{
-        .study_center_course_list{
+    .study_center_container {
+        .study_center_course_list {
             margin-right: -5px;
         }
-        .study_center_course_list_item{
+        .study_center_course_list_item {
             width: 250px;
             float: left;
             margin-right: 10px;
             margin-bottom: 15px;
             position: relative;
             height: 223px;
-            
         }
-        .study_center_course_list_item_content{
+        .study_center_course_list_item_content {
             width: 246px;
-            margin: 2px auto 0; 
+            margin: 2px auto 0;
             height: 223px;
-            position:absolute;
+            position: absolute;
             background: #fff;
             transition: height 0.4s;
-            img{
-              width: 246px;
+            img {
+                width: 246px;
             }
-            .img{
+            .img {
                 position: relative;
                 display: inline-block;
-                span{
+                span {
                     position: absolute;
                     top: -4px;
                     right: 10px;
@@ -120,24 +116,24 @@
                     background: #35B558;
                     color: #fff;
                     display: none;
-                    z-index:10012; 
-                    &.active{
+                    z-index: 10012;
+                    &.active {
                         display: block;
                     }
                 }
-                .player{
+                .player {
                     position: absolute;
                     top: 50%;
                     left: 50%;
-                    margin:-20px 0 0 -20px;
+                    margin: -20px 0 0 -20px;
                     height: 40px;
                     width: 40px;
                     opacity: 0;
                     transform: scale(1);
-                    transition: opacity .4s,transform .4s;
-                    z-index:10011 ;
+                    transition: opacity 0.4s,transform 0.4s;
+                    z-index: 10011;
                 }
-                .schedule{
+                .schedule {
                     position: absolute;
                     bottom: 10px;
                     right: 10px;
@@ -146,94 +142,97 @@
                     background: #999999;
                     color: #fff;
                 }
-                .mark{
+                .mark {
                     position: absolute;
                     display: block;
                     opacity: 0;
-                    transition: opacity .4s;
-                    z-index:10010 ;
+                    transition: opacity 0.4s;
+                    z-index: 10010;
                 }
             }
-            .content{
+            .content {
                 padding: 10px;
                 line-height: 18px;
                 color: #808080;
-                .title{
+                .title {
                     height: 40px;
                     display: block;
                     color: #333333;
                     font-size: 14px;
                 }
-                p{
-                    height: 0px;
+                p {
+                    height: 0;
                     overflow: hidden;
                     transition: height 0.4s;
                 }
-                i{
+                i {
                     font-family: iconfont;
                 }
-                span{
+                span {
                     display: inline-block;
                     margin: 5px 0;
                     width: 50%;
                 }
-                .icons{
+                .icons {
                     display: inline-block;
                     float: right;
                     margin: 5px 0;
                 }
-                .study_num{
+                .study_num {
                     float: right;
                     text-align: right;
                     display: none;
                 }
-                .study_hight{
+                .study_hight {
                     display: none;
                 }
             }
-            &:hover{
+            &:hover {
                 height: 308px;
                 border: 1px solid #0DBD0D;
                 border-top: 0;
-                .study_num,.study_hight{
+                .study_num,
+                .study_hight {
                     display: inline-block;
                 }
-                p{
+                p {
                     height: 54px;
                 }
-                .player{
+                .player {
                     opacity: 1;
                     transform: scale(1.4);
                 }
-                .mark{
+                .mark {
                     opacity: 1;
                 }
             }
         }
-        .page_nav{
+        .page_nav {
             height: 32px;
             line-height: 32px;
             font-size: 0;
             text-align: center;
-            margin: 30px  0 50px;
-            li{
-                &:first-child,&:last-child{
+            margin: 30px 0 50px;
+            li {
+                &:first-child,
+                &:last-child {
                     padding: 0 20px;
                 }
-                &.un_active{
-                    cursor:auto;
+                &.un_active {
+                    cursor: auto;
                     color: #DDDDDD;
-                    &:hover{
-                       background: #fff; 
-                       color: #DDDDDD;
+                    &:hover {
+                        background: #fff;
+                        color: #DDDDDD;
                     }
                 }
-                &:hover,&.active{
+                &:hover,
+                &.active {
                     background: #35B558;
                     color: #fff;
                 }
                 cursor: pointer;
-                font-size:12px;
+                font-size: 12px;
                 display: inline-block;
                 background: #fff;
                 padding: 0 12px;

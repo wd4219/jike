@@ -7,6 +7,7 @@
 @import "set_user_info";
 @import "myvip";
 @import "web_engineer_page";
+@import "web_engineer_grow_plan_des";
 $nav_height: 60px;
 @font-face {
     font-family: "iconfont";
@@ -37,6 +38,7 @@ $nav_height: 60px;
 .icon-baidu:before { content: "\e604"; }
 .icon-phone:before { content: "\e605"; }
 .icon-js:before { content: "\e60b"; }
+.icon-message:before { content: "\e60d"; }
 .icon-gao:before { content: "\e60c"; }
 .icon-vip-guihua:before { content: "\e606"; }
 .icon-jiuyeban:before { content: "\e607"; }
@@ -138,7 +140,7 @@ header {
             .submenu {
                 position: absolute;
                 top: 60;
-                z-index: 10000;
+                z-index: 20000;
                 width: 280px;
                 border: 1px solid #ccc;
                 opacity: 0;
@@ -198,6 +200,7 @@ header {
                 visibility: hidden;
                 opacity: 0;
                 transition: opacity 1s;
+                z-index: 20001;
             }
             i {
                 position: absolute;
