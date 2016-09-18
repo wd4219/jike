@@ -85,33 +85,34 @@
 /* line 73, ../sass/myvip.scss */
 .vip_content .f_code_panel .left input {
   line-height: 28px;
+  height: 28px;
   padding: 0;
   text-align: center;
   width: 210px;
   outline: none;
   box-sizing: border-box;
 }
-/* line 81, ../sass/myvip.scss */
+/* line 82, ../sass/myvip.scss */
 .vip_content .f_code_panel .left .btn {
   margin-left: 10px;
   background: #0DBD0D;
   color: #fff;
   border: none;
 }
-/* line 87, ../sass/myvip.scss */
+/* line 88, ../sass/myvip.scss */
 .vip_content .f_code_panel .left .f_des {
   color: #999;
   line-height: 20px;
   margin-top: 10px;
 }
-/* line 93, ../sass/myvip.scss */
+/* line 94, ../sass/myvip.scss */
 .vip_content .f_code_panel .right {
   float: left;
   width: 50%;
   padding-left: 40px;
   box-sizing: border-box;
 }
-/* line 98, ../sass/myvip.scss */
+/* line 99, ../sass/myvip.scss */
 .vip_content .f_code_panel .right .weixin_des {
   float: left;
   margin-right: 40px;
@@ -119,11 +120,11 @@
   text-align: right;
   line-height: 20px;
 }
-/* line 105, ../sass/myvip.scss */
+/* line 106, ../sass/myvip.scss */
 .vip_content .f_code_panel .right .img {
   float: left;
 }
-/* line 112, ../sass/myvip.scss */
+/* line 113, ../sass/myvip.scss */
 .vip_content .change_panel .change_nav li {
   float: left;
   border: 1px solid #ccc;
@@ -135,45 +136,45 @@
   box-sizing: border-box;
   cursor: pointer;
 }
-/* line 122, ../sass/myvip.scss */
+/* line 123, ../sass/myvip.scss */
 .vip_content .change_panel .change_nav li.active {
   border-top: 2px solid #0DBD0D;
   border-bottom: 1px solid #fff;
   position: relative;
 }
-/* line 129, ../sass/myvip.scss */
+/* line 130, ../sass/myvip.scss */
 .vip_content .change_panel .change_content {
   border: 1px solid #ccc;
   margin-top: -1px;
   padding: 20px;
 }
-/* line 133, ../sass/myvip.scss */
+/* line 134, ../sass/myvip.scss */
 .vip_content .change_panel .change_content thead {
   background: #f3f3f3;
 }
-/* line 136, ../sass/myvip.scss */
+/* line 137, ../sass/myvip.scss */
 .vip_content .change_panel .change_content th, .vip_content .change_panel .change_content td {
   padding: 15px;
   font-weight: 400;
   vertical-align: middle;
 }
-/* line 141, ../sass/myvip.scss */
+/* line 142, ../sass/myvip.scss */
 .vip_content .change_panel .change_content td {
   border-right: 1px solid #ccc;
 }
-/* line 144, ../sass/myvip.scss */
+/* line 145, ../sass/myvip.scss */
 .vip_content .change_panel .change_content tr {
   border-bottom: 1px solid #ccc;
 }
-/* line 147, ../sass/myvip.scss */
+/* line 148, ../sass/myvip.scss */
 .vip_content .change_panel .change_content tbody {
   border-left: 1px solid #ccc;
 }
-/* line 151, ../sass/myvip.scss */
+/* line 152, ../sass/myvip.scss */
 .vip_content .change_panel .change_content .f_change_content table, .vip_content .change_panel .change_content .recive_f table {
   width: 100%;
 }
-/* line 153, ../sass/myvip.scss */
+/* line 154, ../sass/myvip.scss */
 .vip_content .change_panel .change_content .f_change_content table td, .vip_content .change_panel .change_content .recive_f table td {
   text-align: center;
 }

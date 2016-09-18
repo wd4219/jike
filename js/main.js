@@ -1,16 +1,7 @@
 'use strict'
 
 window.onload = function(){
-	//导航条搜索按钮动画实现
-	var search_icon = document.getElementsByClassName("search")[0];
-	var search_box = document.getElementById("search_box");
-	var search_close = document.getElementsByClassName("close")[0];
-	search_icon.onclick = function(){
-		search_box.className += " showanimate";
-	}
-	search_close.onclick = function(){
-		search_box.className = "search_box";
-	}
+	search_box_animate()
 	
 	//slider动画实现
 	var slider = document.getElementsByClassName("slider")[0];
@@ -119,34 +110,7 @@ window.onload = function(){
 //	backtop.onclick = function(){
 //		document.body.scrollTop = 0;
 //	}
-	$(window).scroll(function(){
-		if($(window).scrollTop() > 200)
-		{
-			$("#backtop").addClass("show");
-		}
-		else{
-			$("#backtop").removeClass("show");
-		}
-	});
-	$("#backtop").click(function(){
-		$("body,html").stop().animate({scrollTop:0});
-	});
-	
-	
-	//显示弹出层
-	var login = document.getElementById("login");
-	var pop_login = document.getElementById("pop_login");
-	var mark = document.getElementById("mark");
-	var close_pop_login = document.getElementById("close_pop");
-	login.onclick = function(){
-		mark.style.display = "block";
-		pop_login.style.display = "block";
-	}
-	close_pop_login.onclick = function(){
-		pop_login.style.display = "none";
-		mark.style.display = "none";
-	}
-	
-	
+	//登录弹出框代码
+	pop_box("login","close_pop","pop_login",false,"mark");
 	
 }

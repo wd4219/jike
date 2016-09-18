@@ -15,12 +15,12 @@
 				</div>
 				<ul class="fl">
 					<li>
-						<a href="#" class="index">首页</a>
+						<a href="index.html" class="index">首页</a>
 					</li>
 					<li>职业学院<span class="arrow"></span>
 						<div class="submenu">
 							<h3>前端学院</h3>
-							<a href="#"><span class="web_icon"></span>web工程师</a>
+							<a href="web_engineer_page.html"><span class="web_icon"></span>web工程师</a>
 							<h3>后端学院</h3>
 							<a href="#"><span class="python_icon"></span>python web工程师</a>
 							<a href="#"><span class="go_icon"></span>go语言工程师</a>
@@ -280,17 +280,19 @@
 		</div>
 		<!--页面小组件-->
 		<!--离线留言-->
-		<a href="javascript:;" class="offline_message"><span class="icon-message"></span>离线留言</a>
-		<div class="message_content_pop" style="display: none;">
-			<h2>给我们留言</h2><span class="pop_close_arrow">ˇ</span>
+		<a href="javascript:;" class="offline_message" id="show_btn"><span class="icon-message"></span>离线留言</a>
+		<div class="message_content_pop" style="display: none;" id="pop_layer">
+			<h2>给我们留言</h2><span class="pop_close_arrow" id="close_btn">ˇ</span>
 			<p>您好，很抱歉我们暂时无法为您提供服务，如需帮助，请留言，我们将尽快联系并解决您的问题</p>
-			<label for="phone_number">手机</label><input type="text" id="phone_number" placeholder="请输入手机号" />
+			<label for="phone_number">手机</label><input type="text" id="phone_number"placeholder="请输入手机号"/>
 			<label for="message_content">留言内容<em>*</em></label><textarea placeholder="请输入留言内容" id="message_content"></textarea>
 			<div class="message_btns">
 				<button type="button" class="message_submit_btn">提交</button>
 			</div>
 		</div>
 		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/web_engineer_grow_plan_des.js" type="text/javascript" charset="utf-8"></script>
 	</body>
 
 </html>

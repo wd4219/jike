@@ -85,7 +85,7 @@
 			</div>
 		</div>
 		<div class="web_engineer_page_body commwidth clearfix">
-			<div class="left_nav">
+			<div class="left_nav" id="left_nav">
 				<ul>
 					<li>概览</li>
 					<li>成长计划<span>零基础就业、转行</span></li>
@@ -332,7 +332,7 @@
 					<h2>常见问题</h2>
 				</div>
 				<div class="noraml_problem">
-					<div class="problem_content">
+					<div class="problem_content" id="problem_content">
 						<h3>1、Web前端工程师是做什么的？</h3>
 						<p>回答：随着互联网和移动互联网的高速发展，Web前端工程师职业越来越火爆，几乎所有的公司包括IT和传统行业都对前端工程师有着不可或缺的强烈需求。不在局限于简单的网站的页面开发，随着需求的提高，Web前端工程师不仅要掌握基本的Web前端开发技术，还要掌握最新的框架技术、性能优化技术、组件复用开发技术和基于HTML5的APP应用开发等新技能，最终完成惊人的互动体验效果。因此Web前端工程师是当下需求量最大的技术研发职业方向。</p>
 						<h3>2、我没有编程基础，适合学习Web前端工程师的哪个课程？</h3>
@@ -351,8 +351,12 @@
 						<p>回答：我们现在提供极客币支付、支付宝支付和微信支付三种方式。将来还会开放其他的支付方法，敬请期待。</p>
 						<h3>9、职业学院的课程要求多长时间内学完有限制么？</h3>
 						<p>回答：为了提高学习效果，极客学院课程都有有效期要求，在课程的详情页面都有明显的标注。有效期过后，我们的所有的课程的课件，例如视频课程、图文课程和随堂测试还可以继续学习使用，只不过作业和问答功能不再提供。</p>
+						<h3></h3>
+						<p></p>
+						<h3></h3>
+						<p></p>
 					</div>
-					<p class="more_btn">更多常见问题</p>
+					<p class="more_btn" id="more_btn">更多常见问题</p>
 				</div>
 				
 			</div>
@@ -448,9 +452,9 @@
 		
 		<!--页面小组件-->
 		<!--离线留言-->
-		<a href="javascript:;" class="offline_message"><span class="icon-message"></span>离线留言</a>
-		<div class="message_content_pop" style="display: none;">
-			<h2>给我们留言</h2><span class="pop_close_arrow">ˇ</span>
+		<a href="javascript:;" class="offline_message" id="show_btn"><span class="icon-message"></span>离线留言</a>
+		<div class="message_content_pop" style="display: none;" id="pop_layer">
+			<h2>给我们留言</h2><span class="pop_close_arrow" id="close_btn">ˇ</span>
 			<p>您好，很抱歉我们暂时无法为您提供服务，如需帮助，请留言，我们将尽快联系并解决您的问题</p>
 			<label for="phone_number">手机</label><input type="text" id="phone_number"placeholder="请输入手机号"/>
 			<label for="message_content">留言内容<em>*</em></label><textarea placeholder="请输入留言内容" id="message_content"></textarea>
@@ -459,6 +463,8 @@
 			</div>
 		</div>
 		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/web_engineer_page.js" type="text/javascript" charset="utf-8"></script>
 	</body>
 
 </html>

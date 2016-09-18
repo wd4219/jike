@@ -8,12 +8,13 @@
         text-align: center;
         border-bottom: 2px solid #e4e4e4;
         margin-bottom: 15px;
-        a{
+        li{
             font-size: 16px;
             display: inline-block;
             width: 50%;
             color: #999;
             height:32px;
+            cursor: pointer;
             &.active{
                 border-bottom: 2px solid #0DBD0D;
                 color: #0DBD0D;

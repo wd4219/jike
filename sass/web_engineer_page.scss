@@ -31,6 +31,8 @@
         font-size: 14px;
         color: #333;
         float: left;
+        position: absolute;
+        top: 100px;
         li {
             cursor: pointer;
             padding-left: 20px;
@@ -209,39 +211,37 @@
         .noraml_problem {
             background: #fff;
             border: 1px solid #ccc;
-            .problem_content{     
-            
-            padding: 5px 24px 24px;
-            height: 140px;
-            box-sizing: border-box;
-            overflow: hidden;
-            h3 {
+            .problem_content {
+                padding: 5px 24px 24px;
+                height: 140px;
+                box-sizing: border-box;
+                overflow: hidden;
+                h3 {
+                    font-size: 16px;
+                    line-height: 16px;
+                    margin-bottom: 15px;
+                    padding-top: 20px;
+                }
+                p {
+                    font-size: 14px;
+                    line-height: 22px;
+                    color: #666;
+                }
+            }
+            .more_btn {
+                border-top: 1px solid #ccc;
+                line-height: 50px;
                 font-size: 14px;
-                line-height: 14px;
-                margin-bottom: 15px;
-                padding-top: 20px;
+                text-align: center;
+                cursor: pointer;
+                &:hover {
+                    color: #0DBD0D;
+                }
             }
-            p{
-                line-height: 22px;
-                color: #666;
-                font-size: 12px;
-            }
-        }
-        .more_btn{
-            border-top: 1px solid #ccc;
-            line-height: 50px;
-            font-size: 14px;
-            text-align: center;
-            cursor: pointer;
-            &:hover{
-                color: #0DBD0D;
-                
-            }
-        }   
         }
     }
 }
-.offline_message{
+.offline_message {
     position: fixed;
     bottom: 0;
     right: 10px;
@@ -252,7 +252,7 @@
     width: 140px;
     font-size: 16px;
     color: #fff;
-    span{
+    span {
         width: 40px;
         display: inline-block;
         text-align: center;
@@ -260,12 +260,9 @@
         border-right: 1px solid #BBBBBB;
         margin-right: 15px;
     }
-    
 }
-
-
 //留言弹出层
-.message_content_pop{
+.message_content_pop {
     width: 354px;
     height: 530px;
     position: fixed;
@@ -273,7 +270,7 @@
     bottom: 0;
     background: #f2f3f5;
     box-shadow: 0 1px 3px rgba(0,0,0,.1),0 2px 5px rgba(0,0,0,.1);
-    h2{
+    h2 {
         line-height: 66px;
         border-bottom: 1px solid #E4E4E4;
         background: #53ca9d;
@@ -281,23 +278,28 @@
         padding-left: 20px;
         color: #fff;
     }
-    p,label,input,textarea{
-        padding: 0 20px;        
+    p,
+    label,
+    input,
+    textarea {
+        padding: 0 20px;
     }
-    p,label{
+    p,
+    label {
         line-height: 18px;
         margin: 20px 0;
         color: #666666;
         font-size: 14px;
     }
-    label{
+    label {
         display: block;
         margin: 10px 0;
-        em{
+        em {
             color: red;
         }
     }
-    input,textarea{
+    input,
+    textarea {
         width: 100%;
         box-sizing: border-box;
         border: none;
@@ -305,21 +307,21 @@
         border-bottom: 1px solid #e4e4e4;
         outline: none;
     }
-    input{
+    input {
         line-height: 45px;
         font-size: 16px;
     }
-    textarea{
+    textarea {
         height: 100px;
         padding-top: 15px;
         margin-bottom: 25px;
     }
-    .message_btns{
+    .message_btns {
         width: 100%;
-        padding: 0 10px ;
+        padding: 0 10px;
         box-sizing: border-box;
     }
-    .message_submit_btn{
+    .message_submit_btn {
         height: 50px;
         line-height: 50px;
         font-size: 18px;
@@ -334,7 +336,7 @@
         cursor: pointer;
         outline: none;
     }
-    .pop_close_arrow{
+    .pop_close_arrow {
         position: absolute;
         top: 10px;
         right: 10px;

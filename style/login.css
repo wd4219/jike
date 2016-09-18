@@ -9,15 +9,16 @@
   margin-bottom: 15px;
 }
 /* line 11, ../sass/login.scss */
-.login_page_content .tab_nav a {
+.login_page_content .tab_nav li {
   font-size: 16px;
   display: inline-block;
   width: 50%;
   color: #999;
   height: 32px;
+  cursor: pointer;
 }
-/* line 17, ../sass/login.scss */
-.login_page_content .tab_nav a.active {
+/* line 18, ../sass/login.scss */
+.login_page_content .tab_nav li.active {
   border-bottom: 2px solid #0DBD0D;
   color: #0DBD0D;
 }

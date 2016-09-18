@@ -138,12 +138,12 @@
 						</div>
 					</div>
 					<div class="change_panel">
-						<ul class="change_nav clearfix">
-							<li class="active">VIP兑换记录</li>
-							<li>F码兑换记录</li>
-							<li>已领取F码<span class="f_num">0</span></li>
+						<ul class="change_nav clearfix" id="tab_btns">
+							<li class="active" data-index="0">VIP兑换记录</li>
+							<li data-index="1">F码兑换记录</li>
+							<li data-index="2">已领取F码<span class="f_num">0</span></li>
 						</ul>
-						<ul class="change_content">
+						<ul class="change_content" id="tab_contents">
 							<li class="vip_change_content" >
 								<table>
 									<thead>
@@ -339,12 +339,14 @@
 			</div>
 		</div>
 		<div class="sliderbar iconfont">
-		<span class="icon-fanhuidingbu" id="backtop"></span>
-		<span class="icon-phone"></span>
-		<span class="icon-weixin"></span>
-		<span class="icon-lianxiwomen"></span>
-	</div>
+			<span class="icon-fanhuidingbu" id="backtop"></span>
+			<span class="icon-phone"></span>
+			<span class="icon-weixin"></span>
+			<span class="icon-lianxiwomen"></span>
+		</div>
 		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/myvip.js" type="text/javascript" charset="utf-8"></script>
 	</body>
 
 </html>

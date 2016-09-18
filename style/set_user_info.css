@@ -217,7 +217,7 @@
 }
 /* line 186, ../sass/set_user_info.scss */
 .set_user_info_content .individuation_domain_name .domain_input_box {
-  display: none;
+  display: block;
   line-height: 30px;
   margin-left: 30px;
 }

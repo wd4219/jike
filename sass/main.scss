@@ -50,6 +50,9 @@ body {
     font-size: 12px;
     background: #F5F5F5;
 }
+input{
+    outline: none;
+}
 .commwidth {
     width: 1000px;
     margin: 0 auto;
@@ -817,10 +820,12 @@ header {
         &:nth-child(1) {
             visibility: hidden;
             opacity: 0;
+            display: none;
             transition: opacity 0.5s;
             &.show {
                 visibility: visible;
                 opacity: 1;
+                display: block;
             }
         }
     }
