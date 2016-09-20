@@ -113,4 +113,7 @@ window.onload = function(){
 	//登录弹出框代码
 	pop_box("login","close_pop","pop_login",false,"mark");
 	
+	//表单验证
+    myvalidation("form_validation");
+
 }

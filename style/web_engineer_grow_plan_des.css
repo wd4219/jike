@@ -1,47 +1,119 @@
-/* line 4, ../sass/web_engineer_grow_plan_des.scss */
+/* line 2, ../sass/web_engineer_grow_plan_des.scss */
+.top_bar {
+  height: 70px;
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 3px 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  z-index: 30000;
+  display: none;
+}
+/* line 10, ../sass/web_engineer_grow_plan_des.scss */
+.top_bar .top_nav {
+  padding-left: 30px;
+  line-height: 70px;
+  font-size: 16px;
+}
+/* line 14, ../sass/web_engineer_grow_plan_des.scss */
+.top_bar .top_nav li {
+  height: 70px;
+  line-height: 70px;
+  padding: 0 20px;
+  float: left;
+  cursor: pointer;
+  box-sizing: border-box;
+  margin-right: 20px;
+}
+/* line 22, ../sass/web_engineer_grow_plan_des.scss */
+.top_bar .top_nav li:hover, .top_bar .top_nav li.active {
+  border-bottom: 2px solid #0DBD0D;
+}
+/* line 26, ../sass/web_engineer_grow_plan_des.scss */
+.top_bar .top_nav li span {
+  font-size: 12px;
+  background: #35B558;
+  color: #fff;
+  padding: 0 3px;
+  border-radius: 3px;
+  margin-left: 15px;
+  position: relative;
+}
+/* line 34, ../sass/web_engineer_grow_plan_des.scss */
+.top_bar .top_nav li span i {
+  position: absolute;
+  display: block;
+  border-width: 3px 5px;
+  border-color: transparent #35B558 transparent transparent;
+  border-style: solid;
+  top: 5px;
+  left: -10px;
+}
+/* line 45, ../sass/web_engineer_grow_plan_des.scss */
+.top_bar .top_nav .btns {
+  float: right;
+}
+
+/* line 50, ../sass/web_engineer_grow_plan_des.scss */
+.btns {
+  float: left;
+}
+/* line 52, ../sass/web_engineer_grow_plan_des.scss */
+.btns .btn {
+  line-height: 40px;
+  height: 40px;
+  font-size: 18px;
+  padding: 0 20px;
+}
+/* line 57, ../sass/web_engineer_grow_plan_des.scss */
+.btns .btn.active {
+  background: #35B558;
+  color: #fff;
+}
+
+/* line 64, ../sass/web_engineer_grow_plan_des.scss */
 .web_engineer_course_detail_body .breadcrumb {
   font-size: 14px;
   color: #666666;
 }
-/* line 7, ../sass/web_engineer_grow_plan_des.scss */
+/* line 67, ../sass/web_engineer_grow_plan_des.scss */
 .web_engineer_course_detail_body .breadcrumb a {
   color: #666;
 }
-/* line 9, ../sass/web_engineer_grow_plan_des.scss */
+/* line 69, ../sass/web_engineer_grow_plan_des.scss */
 .web_engineer_course_detail_body .breadcrumb a:hover {
   color: #0DBD0D;
   text-decoration: none;
 }
-/* line 15, ../sass/web_engineer_grow_plan_des.scss */
+/* line 75, ../sass/web_engineer_grow_plan_des.scss */
 .web_engineer_course_detail_body .introduction {
   padding: 15px;
   background: #fff;
   border: 1px solid #ccc;
 }
-/* line 20, ../sass/web_engineer_grow_plan_des.scss */
+/* line 80, ../sass/web_engineer_grow_plan_des.scss */
 .web_engineer_course_detail_body .left_img {
   float: left;
   width: 330px;
 }
-/* line 23, ../sass/web_engineer_grow_plan_des.scss */
+/* line 83, ../sass/web_engineer_grow_plan_des.scss */
 .web_engineer_course_detail_body .left_img img {
   width: 329px;
 }
-/* line 27, ../sass/web_engineer_grow_plan_des.scss */
+/* line 87, ../sass/web_engineer_grow_plan_des.scss */
 .web_engineer_course_detail_body .right_course_detail {
   float: left;
   width: 618px;
   margin-left: 20px;
   font-size: 14px;
 }
-/* line 32, ../sass/web_engineer_grow_plan_des.scss */
+/* line 92, ../sass/web_engineer_grow_plan_des.scss */
 .web_engineer_course_detail_body .right_course_detail h3 {
   font-size: 24px;
   line-height: 36px;
   color: #333;
   margin-bottom: 2px;
 }
-/* line 37, ../sass/web_engineer_grow_plan_des.scss */
+/* line 97, ../sass/web_engineer_grow_plan_des.scss */
 .web_engineer_course_detail_body .right_course_detail h3 span {
   font-size: 12px;
   padding: 1px 3px;
@@ -50,14 +122,14 @@
   background: #F9D279;
   color: #fff;
 }
-/* line 46, ../sass/web_engineer_grow_plan_des.scss */
+/* line 106, ../sass/web_engineer_grow_plan_des.scss */
 .web_engineer_course_detail_body .right_course_detail .teachers {
   display: block;
   color: #999999;
   line-height: 21px;
   margin-bottom: 15px;
 }
-/* line 52, ../sass/web_engineer_grow_plan_des.scss */
+/* line 112, ../sass/web_engineer_grow_plan_des.scss */
 .web_engineer_course_detail_body .right_course_detail .now_price {
   color: #FF0000;
   line-height: 30px;
@@ -65,12 +137,12 @@
   margin-right: 10px;
   font-weight: bold;
 }
-/* line 59, ../sass/web_engineer_grow_plan_des.scss */
+/* line 119, ../sass/web_engineer_grow_plan_des.scss */
 .web_engineer_course_detail_body .right_course_detail .old_price {
   color: #bebebe;
   text-decoration: line-through;
 }
-/* line 63, ../sass/web_engineer_grow_plan_des.scss */
+/* line 123, ../sass/web_engineer_grow_plan_des.scss */
 .web_engineer_course_detail_body .right_course_detail .vip_price {
   line-height: 18px;
   border: 1px solid #FF5C00;
@@ -78,59 +150,43 @@
   margin-left: 20px;
   padding-right: 5px;
 }
-/* line 69, ../sass/web_engineer_grow_plan_des.scss */
+/* line 129, ../sass/web_engineer_grow_plan_des.scss */
 .web_engineer_course_detail_body .right_course_detail .vip_price em {
   padding: 0 5px;
   background: #FF5C00;
   color: #fff;
 }
-/* line 75, ../sass/web_engineer_grow_plan_des.scss */
+/* line 135, ../sass/web_engineer_grow_plan_des.scss */
 .web_engineer_course_detail_body .right_course_detail .detail_bottom {
   margin-top: 20px;
 }
-/* line 77, ../sass/web_engineer_grow_plan_des.scss */
-.web_engineer_course_detail_body .right_course_detail .detail_bottom .btns {
-  float: left;
-}
-/* line 79, ../sass/web_engineer_grow_plan_des.scss */
-.web_engineer_course_detail_body .right_course_detail .detail_bottom .btns .btn {
-  line-height: 40px;
-  height: 40px;
-  font-size: 18px;
-  padding: 0 20px;
-}
-/* line 84, ../sass/web_engineer_grow_plan_des.scss */
-.web_engineer_course_detail_body .right_course_detail .detail_bottom .btns .btn.active {
-  background: #35B558;
-  color: #fff;
-}
-/* line 90, ../sass/web_engineer_grow_plan_des.scss */
+/* line 137, ../sass/web_engineer_grow_plan_des.scss */
 .web_engineer_course_detail_body .right_course_detail .detail_bottom .grow_nums {
   float: right;
   margin-top: 28px;
   font-size: 12px;
   color: #BBBBBB;
 }
-/* line 95, ../sass/web_engineer_grow_plan_des.scss */
+/* line 142, ../sass/web_engineer_grow_plan_des.scss */
 .web_engineer_course_detail_body .right_course_detail .detail_bottom .grow_nums span {
   padding: 0 20px;
   border-right: 1px solid #bbb;
 }
-/* line 98, ../sass/web_engineer_grow_plan_des.scss */
+/* line 145, ../sass/web_engineer_grow_plan_des.scss */
 .web_engineer_course_detail_body .right_course_detail .detail_bottom .grow_nums span:last-child {
   border: none;
 }
-/* line 105, ../sass/web_engineer_grow_plan_des.scss */
+/* line 151, ../sass/web_engineer_grow_plan_des.scss */
 .web_engineer_course_detail_body .right_course_detail .course_des {
   margin: 20px 0;
   color: #9F9F9F;
 }
 
-/* line 113, ../sass/web_engineer_grow_plan_des.scss */
+/* line 157, ../sass/web_engineer_grow_plan_des.scss */
 .web_engineer_course_detail_content {
   margin-top: 20px;
 }
-/* line 115, ../sass/web_engineer_grow_plan_des.scss */
+/* line 159, ../sass/web_engineer_grow_plan_des.scss */
 .web_engineer_course_detail_content .left_content {
   border: 1px solid #ccc;
   margin-right: 20px;
@@ -139,14 +195,14 @@
   box-sizing: border-box;
   float: left;
 }
-/* line 122, ../sass/web_engineer_grow_plan_des.scss */
+/* line 166, ../sass/web_engineer_grow_plan_des.scss */
 .web_engineer_course_detail_content .left_content .web_tab_nav {
   padding-left: 30px;
   line-height: 50px;
   border-bottom: 1px solid #ccc;
   font-size: 16px;
 }
-/* line 127, ../sass/web_engineer_grow_plan_des.scss */
+/* line 171, ../sass/web_engineer_grow_plan_des.scss */
 .web_engineer_course_detail_content .left_content .web_tab_nav li {
   height: 50px;
   line-height: 50px;
@@ -156,21 +212,21 @@
   box-sizing: border-box;
   margin-right: 20px;
 }
-/* line 135, ../sass/web_engineer_grow_plan_des.scss */
+/* line 179, ../sass/web_engineer_grow_plan_des.scss */
 .web_engineer_course_detail_content .left_content .web_tab_nav li:hover, .web_engineer_course_detail_content .left_content .web_tab_nav li.active {
   border-bottom: 2px solid #0DBD0D;
 }
-/* line 138, ../sass/web_engineer_grow_plan_des.scss */
+/* line 183, ../sass/web_engineer_grow_plan_des.scss */
 .web_engineer_course_detail_content .left_content .web_tab_nav li span {
   font-size: 12px;
   background: #35B558;
   color: #fff;
-  padding: 0px 3px;
+  padding: 0 3px;
   border-radius: 3px;
   margin-left: 15px;
   position: relative;
 }
-/* line 146, ../sass/web_engineer_grow_plan_des.scss */
+/* line 191, ../sass/web_engineer_grow_plan_des.scss */
 .web_engineer_course_detail_content .left_content .web_tab_nav li span i {
   position: absolute;
   display: block;
@@ -180,18 +236,135 @@
   top: 5px;
   left: -10px;
 }
-/* line 158, ../sass/web_engineer_grow_plan_des.scss */
+/* line 203, ../sass/web_engineer_grow_plan_des.scss */
 .web_engineer_course_detail_content .left_content .img_show {
   width: 745px;
   box-sizing: border-box;
-  padding: 0 30px;
-  padding-bottom: 40px;
+  padding: 0 30px 40px;
 }
-/* line 163, ../sass/web_engineer_grow_plan_des.scss */
+/* line 207, ../sass/web_engineer_grow_plan_des.scss */
 .web_engineer_course_detail_content .left_content .img_show img {
   width: 100%;
 }
-/* line 168, ../sass/web_engineer_grow_plan_des.scss */
+/* line 212, ../sass/web_engineer_grow_plan_des.scss */
+.web_engineer_course_detail_content .left_content .course_outline .group_name {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  background: #E4E4E4;
+  padding: 0 20px;
+  position: relative;
+  margin-top: 30px;
+}
+/* line 220, ../sass/web_engineer_grow_plan_des.scss */
+.web_engineer_course_detail_content .left_content .course_outline .group_name .right_triangle {
+  border-width: 15px 5px;
+  border-style: solid;
+  border-color: transparent #FFF transparent transparent;
+  height: 0;
+  width: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 100;
+}
+/* line 232, ../sass/web_engineer_grow_plan_des.scss */
+.web_engineer_course_detail_content .left_content .course_outline .catelog {
+  border: 1px solid #ccc;
+  margin: 20px;
+  padding: 30px 0;
+}
+/* line 236, ../sass/web_engineer_grow_plan_des.scss */
+.web_engineer_course_detail_content .left_content .course_outline .catelog h2 {
+  margin-top: 40px;
+  border-left: 2px solid #0DBD0D;
+  font-weight: bold;
+  font-size: 16px;
+  padding-left: 40px;
+  color: #666;
+}
+/* line 244, ../sass/web_engineer_grow_plan_des.scss */
+.web_engineer_course_detail_content .left_content .course_outline .catelog .teacher {
+  margin: 20px 40px;
+}
+/* line 246, ../sass/web_engineer_grow_plan_des.scss */
+.web_engineer_course_detail_content .left_content .course_outline .catelog .teacher .teacher_name {
+  color: #E4E4E4;
+  font-size: 14px;
+}
+/* line 250, ../sass/web_engineer_grow_plan_des.scss */
+.web_engineer_course_detail_content .left_content .course_outline .catelog .teacher .down_arrow {
+  float: right;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  line-height: 16px;
+  border-radius: 50%;
+  background: #DDDDDD;
+  text-align: right;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+/* line 261, ../sass/web_engineer_grow_plan_des.scss */
+.web_engineer_course_detail_content .left_content .course_outline .catelog .teacher .down_arrow.active {
+  transform: rotate(90deg);
+}
+/* line 266, ../sass/web_engineer_grow_plan_des.scss */
+.web_engineer_course_detail_content .left_content .course_outline .catelog .course_des {
+  margin: 0 40px;
+  line-height: 18px;
+  color: #999999;
+  margin-bottom: 40px;
+}
+/* line 272, ../sass/web_engineer_grow_plan_des.scss */
+.web_engineer_course_detail_content .left_content .course_outline .catelog .book {
+  display: none;
+}
+/* line 274, ../sass/web_engineer_grow_plan_des.scss */
+.web_engineer_course_detail_content .left_content .course_outline .catelog .book h3 {
+  line-height: 40px;
+  height: 40px;
+  padding-left: 40px;
+  background: #F2F3F5;
+  font-size: 14px;
+  color: #808080;
+}
+/* line 281, ../sass/web_engineer_grow_plan_des.scss */
+.web_engineer_course_detail_content .left_content .course_outline .catelog .book h3 span {
+  color: #999999;
+  font-size: 12px;
+  margin-left: 15px;
+}
+/* line 287, ../sass/web_engineer_grow_plan_des.scss */
+.web_engineer_course_detail_content .left_content .course_outline .catelog .book dt {
+  padding: 20px 40px 10px;
+  color: #666;
+}
+/* line 290, ../sass/web_engineer_grow_plan_des.scss */
+.web_engineer_course_detail_content .left_content .course_outline .catelog .book dt span {
+  float: right;
+  color: #999;
+}
+/* line 295, ../sass/web_engineer_grow_plan_des.scss */
+.web_engineer_course_detail_content .left_content .course_outline .catelog .book dd {
+  padding: 10px 40px 10px 60px;
+  cursor: pointer;
+  color: #999999;
+}
+/* line 299, ../sass/web_engineer_grow_plan_des.scss */
+.web_engineer_course_detail_content .left_content .course_outline .catelog .book dd span {
+  float: right;
+  display: none;
+}
+/* line 303, ../sass/web_engineer_grow_plan_des.scss */
+.web_engineer_course_detail_content .left_content .course_outline .catelog .book dd:hover {
+  background: #F2F3F5;
+}
+/* line 305, ../sass/web_engineer_grow_plan_des.scss */
+.web_engineer_course_detail_content .left_content .course_outline .catelog .book dd:hover span {
+  display: block;
+}
+/* line 314, ../sass/web_engineer_grow_plan_des.scss */
 .web_engineer_course_detail_content .right_content {
   float: left;
   width: 235px;
@@ -199,7 +372,7 @@
   box-sizing: border-box;
   border: 1px solid #ccc;
 }
-/* line 174, ../sass/web_engineer_grow_plan_des.scss */
+/* line 320, ../sass/web_engineer_grow_plan_des.scss */
 .web_engineer_course_detail_content .right_content .teacher_info_title {
   height: 50px;
   line-height: 50px;
@@ -207,17 +380,17 @@
   font-size: 16px;
   padding-left: 20px;
 }
-/* line 181, ../sass/web_engineer_grow_plan_des.scss */
+/* line 327, ../sass/web_engineer_grow_plan_des.scss */
 .web_engineer_course_detail_content .right_content .teacher_list {
   padding: 0 20px;
   margin-bottom: -1px;
 }
-/* line 184, ../sass/web_engineer_grow_plan_des.scss */
+/* line 330, ../sass/web_engineer_grow_plan_des.scss */
 .web_engineer_course_detail_content .right_content .teacher_list .teacher_list_item {
   padding: 20px 0;
   border-bottom: 1px solid #ccc;
 }
-/* line 187, ../sass/web_engineer_grow_plan_des.scss */
+/* line 333, ../sass/web_engineer_grow_plan_des.scss */
 .web_engineer_course_detail_content .right_content .teacher_list .teacher_list_item img {
   width: 60px;
   height: 60px;
@@ -225,12 +398,12 @@
   float: left;
   margin-right: 20px;
 }
-/* line 194, ../sass/web_engineer_grow_plan_des.scss */
+/* line 340, ../sass/web_engineer_grow_plan_des.scss */
 .web_engineer_course_detail_content .right_content .teacher_list .teacher_list_item .item_top_des {
   line-height: 20px;
   padding-top: 10px;
 }
-/* line 198, ../sass/web_engineer_grow_plan_des.scss */
+/* line 344, ../sass/web_engineer_grow_plan_des.scss */
 .web_engineer_course_detail_content .right_content .teacher_list .teacher_list_item p {
   margin-top: 20px;
   line-height: 18px;

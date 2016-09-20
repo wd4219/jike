@@ -43,10 +43,10 @@
   font-size: 12px;
   display: inline-block;
   margin-right: 10px;
-  color: #555555;
+  color: #fff;
   width: 50px;
   text-align: center;
-  background: #BBBBBB;
+  background: #E3E3E3;
 }
 /* line 41, ../sass/register.scss */
 .register_page_content .content .left .pwd_strength li.active, .login_page_content .content .left .pwd_strength li.active {

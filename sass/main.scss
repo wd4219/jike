@@ -8,6 +8,8 @@
 @import "myvip";
 @import "web_engineer_page";
 @import "web_engineer_grow_plan_des";
+@import "validation";
+
 $nav_height: 60px;
 @font-face {
     font-family: "iconfont";
@@ -50,7 +52,7 @@ body {
     font-size: 12px;
     background: #F5F5F5;
 }
-input{
+input,select,textarea{
     outline: none;
 }
 .commwidth {
@@ -911,6 +913,10 @@ header {
     padding: 0 10px;
     box-sizing: border-box;
     //outline: #35B558;
+    &:focus{
+        box-shadow: 0 0 5px #51cc73;
+        border-color: #35B558;
+    }
 }
 .small_text {
     width: 60%;

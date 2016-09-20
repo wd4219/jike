@@ -369,14 +369,15 @@
   height: 100px;
   padding-top: 15px;
   margin-bottom: 25px;
+  resize: none;
 }
-/* line 319, ../sass/web_engineer_page.scss */
+/* line 320, ../sass/web_engineer_page.scss */
 .message_content_pop .message_btns {
   width: 100%;
   padding: 0 10px;
   box-sizing: border-box;
 }
-/* line 324, ../sass/web_engineer_page.scss */
+/* line 325, ../sass/web_engineer_page.scss */
 .message_content_pop .message_submit_btn {
   height: 50px;
   line-height: 50px;
@@ -392,7 +393,7 @@
   cursor: pointer;
   outline: none;
 }
-/* line 339, ../sass/web_engineer_page.scss */
+/* line 340, ../sass/web_engineer_page.scss */
 .message_content_pop .pop_close_arrow {
   position: absolute;
   top: 10px;

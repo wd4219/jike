@@ -1,35 +1,95 @@
-@charset "utf-8";
-
-.web_engineer_course_detail_body{
-    .breadcrumb{
+@charset "utf-8"; //顶部固定导航
+.top_bar {
+    height: 70px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1),0 3px 5px rgba(0,0,0,.1);
+    position: fixed;
+    width: 100%;
+    z-index: 30000;
+    display: none;
+    .top_nav {
+        padding-left: 30px;
+        line-height: 70px;
+        font-size: 16px;
+        li {
+            height: 70px;
+            line-height: 70px;
+            padding: 0 20px;
+            float: left;
+            cursor: pointer;
+            box-sizing: border-box;
+            margin-right: 20px;
+            &:hover,
+            &.active {
+                border-bottom: 2px solid #0DBD0D;
+            }
+            span {
+                font-size: 12px;
+                background: #35B558;
+                color: #fff;
+                padding: 0 3px;
+                border-radius: 3px;
+                margin-left: 15px;
+                position: relative;
+                i {
+                    position: absolute;
+                    display: block;
+                    border-width: 3px 5px;
+                    border-color: transparent #35B558 transparent transparent;
+                    border-style: solid;
+                    top: 5px;
+                    left: -10px;
+                }
+            }
+        }
+        .btns{
+            float: right;
+        }
+    }
+}
+.btns {
+    float: left;
+    .btn {
+        line-height: 40px;
+        height: 40px;
+        font-size: 18px;
+        padding: 0 20px;
+        &.active {
+            background: #35B558;
+            color: #fff;
+        }
+    }
+}
+.web_engineer_course_detail_body {
+    .breadcrumb {
         font-size: 14px;
         color: #666666;
-        a{
+        a {
             color: #666;
-            &:hover{
+            &:hover {
                 color: #0DBD0D;
                 text-decoration: none;
             }
         }
     }
-    .introduction{
+    .introduction {
         padding: 15px;
         background: #fff;
         border: 1px solid #ccc;
     }
-    .left_img{
+    .left_img {
         float: left;
         width: 330px;
-        img{
+        img {
             width: 329px;
         }
     }
-    .right_course_detail{
+    .right_course_detail {
         float: left;
         width: 618px;
         margin-left: 20px;
         font-size: 14px;
-         h3 {
+        h3 {
             font-size: 24px;
             line-height: 36px;
             color: #333;
@@ -60,148 +120,233 @@
             color: #bebebe;
             text-decoration: line-through;
         }
-        .vip_price{
+        .vip_price {
             line-height: 18px;
             border: 1px solid #FF5C00;
             color: #FF5C00;
-            margin-left:20px;
+            margin-left: 20px;
             padding-right: 5px;
-            em{
+            em {
                 padding: 0 5px;
-               background: #FF5C00;
-               color: #fff; 
+                background: #FF5C00;
+                color: #fff;
             }
         }
-        .detail_bottom{
+        .detail_bottom {
             margin-top: 20px;
-            .btns{
-                float: left;
-                .btn{
-                    line-height: 40px;
-                    height: 40px;
-                    font-size: 18px;
-                    padding: 0 20px;
-                    &.active{
-                        background: #35B558;
-                        color: #fff;
-                    }
-                }
-            }
-            .grow_nums{
+            .grow_nums {
                 float: right;
                 margin-top: 28px;
                 font-size: 12px;
                 color: #BBBBBB;
-                span{
+                span {
                     padding: 0 20px;
                     border-right: 1px solid #bbb;
-                    &:last-child{
+                    &:last-child {
                         border: none;
                     }
                 }
             }
         }
-        
-        .course_des{
+        .course_des {
             margin: 20px 0;
             color: #9F9F9F;
         }
-        
     }
-    
 }
-.web_engineer_course_detail_content{
+.web_engineer_course_detail_content {
     margin-top: 20px;
-    .left_content{
+    .left_content {
         border: 1px solid #ccc;
         margin-right: 20px;
-        background:#fff;
+        background: #fff;
         width: 745px;
         box-sizing: border-box;
         float: left;
-        .web_tab_nav{
+        .web_tab_nav {
             padding-left: 30px;
             line-height: 50px;
             border-bottom: 1px solid #ccc;
             font-size: 16px;
-            li{
+            li {
                 height: 50px;
                 line-height: 50px;
                 padding: 0 20px;
                 float: left;
                 cursor: pointer;
-                box-sizing:border-box;  
-                margin-right:20px; 
-                &:hover,&.active{
+                box-sizing: border-box;
+                margin-right: 20px;
+                &:hover,
+                &.active {
                     border-bottom: 2px solid #0DBD0D;
                 }
-                span{
+                span {
                     font-size: 12px;
                     background: #35B558;
                     color: #fff;
-                    padding: 0px 3px;
+                    padding: 0 3px;
                     border-radius: 3px;
                     margin-left: 15px;
-                    position:relative;
-                    i{
+                    position: relative;
+                    i {
                         position: absolute;
                         display: block;
                         border-width: 3px 5px;
                         border-color: transparent #35B558 transparent transparent;
-                        border-style: solid; 
+                        border-style: solid;
                         top: 5px;
                         left: -10px;
                     }
                 }
             }
         }
-        .img_show{
+        .img_show {
             width: 745px;
             box-sizing: border-box;
-            padding: 0 30px;
-            padding-bottom: 40px;
-            img{
+            padding: 0 30px 40px;
+            img {
                 width: 100%;
             }
-        }        
+        }
+        .course_outline {
+            .group_name {
+                display: inline-block;
+                height: 30px;
+                line-height: 30px;
+                background: #E4E4E4;
+                padding: 0 20px;
+                position: relative;
+                margin-top: 30px;
+                .right_triangle {
+                    border-width: 15px 5px;
+                    border-style: solid;
+                    border-color: transparent #FFF transparent transparent;
+                    height: 0;
+                    width: 0;
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    z-index: 100;
+                }
+            }
+            .catelog {
+                border: 1px solid #ccc;
+                margin: 20px;
+                padding: 30px 0;
+                h2 {
+                    margin-top: 40px;
+                    border-left: 2px solid #0DBD0D;
+                    font-weight: bold;
+                    font-size: 16px;
+                    padding-left: 40px;
+                    color: #666;
+                }
+                .teacher {
+                    margin: 20px 40px;
+                    .teacher_name {
+                        color: #E4E4E4;
+                        font-size: 14px;
+                    }
+                    .down_arrow {
+                        float: right;
+                        display: inline-block;
+                        height: 20px;
+                        width: 20px;
+                        line-height: 16px;
+                        border-radius: 50%;
+                        background: #DDDDDD;
+                        text-align: right;
+                        cursor: pointer;
+                        transition: transform 0.3s;
+                        &.active {
+                            transform: rotate(90deg);
+                        }
+                    }
+                }
+                .course_des {
+                    margin: 0 40px;
+                    line-height: 18px;
+                    color: #999999;
+                    margin-bottom: 40px;
+                }
+                .book {
+                    display: none;
+                    h3 {
+                        line-height: 40px;
+                        height: 40px;
+                        padding-left: 40px;
+                        background: #F2F3F5;
+                        font-size: 14px;
+                        color: #808080;
+                        span {
+                            color: #999999;
+                            font-size: 12px;
+                            margin-left: 15px;
+                        }
+                    }
+                    dt {
+                        padding: 20px 40px 10px;
+                        color: #666;
+                        span {
+                            float: right;
+                            color: #999;
+                        }
+                    }
+                    dd {
+                        padding: 10px 40px 10px 60px;
+                        cursor: pointer;
+                        color: #999999;
+                        span {
+                            float: right;
+                            display: none;
+                        }
+                        &:hover {
+                            background: #F2F3F5;
+                            span {
+                                display: block;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
-    .right_content{
+    .right_content {
         float: left;
         width: 235px;
         background: #fff;
         box-sizing: border-box;
-        border:1px solid #ccc;
-        .teacher_info_title{
+        border: 1px solid #ccc;
+        .teacher_info_title {
             height: 50px;
             line-height: 50px;
             border-bottom: 1px solid #ccc;
             font-size: 16px;
             padding-left: 20px;
         }
-        .teacher_list{
+        .teacher_list {
             padding: 0 20px;
             margin-bottom: -1px;
-            .teacher_list_item{
+            .teacher_list_item {
                 padding: 20px 0;
                 border-bottom: 1px solid #ccc;
-                img{
+                img {
                     width: 60px;
                     height: 60px;
                     border-radius: 50%;
                     float: left;
                     margin-right: 20px;
                 }
-                .item_top_des{
+                .item_top_des {
                     line-height: 20px;
                     padding-top: 10px;
                 }
-                p{
+                p {
                     margin-top: 20px;
                     line-height: 18px;
                     color: #9F9F9F;
                 }
             }
-            
         }
     }
 }

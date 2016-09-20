@@ -159,28 +159,29 @@
   height: 50px;
   padding: 10px;
   width: 560px;
+  resize: none;
 }
-/* line 136, ../sass/set_user_info.scss */
+/* line 137, ../sass/set_user_info.scss */
 .set_user_info_content .essential_info .basic_form li .input_box .textarea_num {
   position: absolute;
   right: 55px;
   color: #BBBBBB;
 }
-/* line 141, ../sass/set_user_info.scss */
+/* line 142, ../sass/set_user_info.scss */
 .set_user_info_content .essential_info .basic_form li .input_box i {
   color: #BBBBBB;
 }
-/* line 146, ../sass/set_user_info.scss */
+/* line 147, ../sass/set_user_info.scss */
 .set_user_info_content .essential_info .basic_form .login {
   width: 200px;
   margin-bottom: 30px;
 }
-/* line 153, ../sass/set_user_info.scss */
+/* line 154, ../sass/set_user_info.scss */
 .set_user_info_content .career_info li {
   line-height: 30px;
   height: 30px;
 }
-/* line 156, ../sass/set_user_info.scss */
+/* line 157, ../sass/set_user_info.scss */
 .set_user_info_content .career_info li label {
   width: 100px;
   height: 30px;
@@ -189,20 +190,20 @@
   float: left;
   margin-right: 20px;
 }
-/* line 164, ../sass/set_user_info.scss */
+/* line 165, ../sass/set_user_info.scss */
 .set_user_info_content .career_info li a {
   color: #00A8FF;
 }
-/* line 169, ../sass/set_user_info.scss */
+/* line 170, ../sass/set_user_info.scss */
 .set_user_info_content .individuation_domain_name {
   margin-bottom: 30px;
 }
-/* line 171, ../sass/set_user_info.scss */
+/* line 172, ../sass/set_user_info.scss */
 .set_user_info_content .individuation_domain_name .domain {
   height: 30px;
   line-height: 30px;
 }
-/* line 174, ../sass/set_user_info.scss */
+/* line 175, ../sass/set_user_info.scss */
 .set_user_info_content .individuation_domain_name .domain label {
   width: 100px;
   height: 30px;
@@ -211,17 +212,17 @@
   float: left;
   margin-right: 20px;
 }
-/* line 182, ../sass/set_user_info.scss */
+/* line 183, ../sass/set_user_info.scss */
 .set_user_info_content .individuation_domain_name .domain a {
   color: #00A8FF;
 }
-/* line 186, ../sass/set_user_info.scss */
+/* line 187, ../sass/set_user_info.scss */
 .set_user_info_content .individuation_domain_name .domain_input_box {
   display: block;
   line-height: 30px;
   margin-left: 30px;
 }
-/* line 190, ../sass/set_user_info.scss */
+/* line 191, ../sass/set_user_info.scss */
 .set_user_info_content .individuation_domain_name .domain_input_box input {
   margin: 0 20px;
   line-height: 30px;
@@ -231,11 +232,11 @@
   box-sizing: border-box;
   width: 130px;
 }
-/* line 199, ../sass/set_user_info.scss */
+/* line 200, ../sass/set_user_info.scss */
 .set_user_info_content .individuation_domain_name .domain_input_box i {
   color: #BBBBBB;
 }
-/* line 202, ../sass/set_user_info.scss */
+/* line 203, ../sass/set_user_info.scss */
 .set_user_info_content .individuation_domain_name .domain_input_box .btns {
   margin: 20px 0;
 }

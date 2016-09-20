@@ -21,23 +21,40 @@
 					</ul>
 					<ul id="tab_contents">
 						<li id="normal_login_content">
-							<input type="text" placeholder="手机/用户名/邮箱" class="text" />
-							<input type="password" placeholder="输入6~32位密码" class="text" />
-							<input type="text" placeholder="验证码" class="text small_text" />
-							<div class="checkbox">
-								<input type="checkbox" id="autologin" /><label for="autologin">七天内免登录</label>
-								<a href="javascipt" class="forget_pwd">忘记密码</a>
-							</div>
-							<input type="button" value="登录" class="login" />
+							<form action="" method="get" id="normal_login">
+								<div class="form_item">
+									<input type="text" placeholder="手机/用户名/邮箱" class="text" name="username" />
+								</div>
+								<div class="form_item">
+									<input type="password" placeholder="输入6~32位密码" class="text" name="password" />
+								</div>
+								<div class="form_item">
+									<input type="text" placeholder="验证码" class="text small_text" name="indentifying_code" />
+								</div>
+								<div class="checkbox">
+									<input type="checkbox" id="autologin" name="autologin" /><label for="autologin">七天内免登录</label>
+									<a href="javascipt" class="forget_pwd">忘记密码</a>
+								</div>
+								<input type="submit" value="登录" class="login" />
+							</form>
 						</li>
 						<li id="mobie_login_content" style="display: none;">
-							<input type="password" placeholder="请输入手机号" class="text" />
-							<input type="text" placeholder="验证码" class="text small_text" />
-							<input type="text" placeholder="动态码" class="text" />
-							<div class="checkbox">
-								<input type="checkbox" id="autologin" /><label for="autologin">记住手机号码</label>
-							</div>
-							<input type="button" value="登录" class="login" />
+							<form action="" method="get" id="mobie_login">
+								<div class="form_item">
+									<input type="text" placeholder="请输入手机号" class="text" name="phone_number" />
+								</div>
+								<div class="form_item">
+									<input type="text" placeholder="验证码" class="text small_text" class="indentifying_code" name="indentifying_code"/>
+								</div>
+								<div class="form_item">
+									<input type="text" placeholder="动态码" class="text" name="dynamic_code" />
+								</div>
+								
+								<div class="checkbox">
+									<input type="checkbox" id="remember_phone" name="remember_phone" /><label for="remember_phone">记住手机号码</label>
+								</div>
+								<input type="submit" value="登录" class="login" />
+							</form>
 						</li>
 					</ul>
 
@@ -64,6 +81,7 @@
 			</div>
 		</div>
 		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script src="js/lib/jquery.validate.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/login.js" type="text/javascript" charset="utf-8"></script>
 	</body>

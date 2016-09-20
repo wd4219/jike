@@ -1,0 +1,27 @@
+/* line 3, ../sass/validation.scss */
+.form_item {
+  position: relative;
+}
+
+/* line 6, ../sass/validation.scss */
+input.error {
+  border: 1px solid #FF5C00;
+}
+
+/* line 10, ../sass/validation.scss */
+input.highlight {
+  border: 1px solid #7abd54;
+}
+
+/* line 13, ../sass/validation.scss */
+label.error {
+  position: absolute;
+  right: 8px;
+  top: 10%;
+  height: 30px;
+  line-height: 30px;
+  background: #FF5C00;
+  border-radius: 4px;
+  color: #fff;
+  padding: 0 5px;
+}

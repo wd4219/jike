@@ -1,46 +1,71 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="UTF-8">
 		<title>用户注册页面</title>
-		<link rel="stylesheet" type="text/css" href="style/main.css"/>
+		<link rel="stylesheet" type="text/css" href="style/main.css" />
 	</head>
+
 	<body>
 		<div class="register_page_content">
 			<div class="logo_box">
 				<a href="index.html" class="logo"><img src="img/logo.png" alt="logo" /></a>
 			</div>
-			
+
 			<div class="content clearfix">
 				<div class="left">
 					<h2>新用户注册</h2>
-					<input type="text" placeholder="手机/用户名/邮箱" class="text"/>
-					<input type="password"placeholder="输入6~32位密码" class="text"/>
-					<ul class="pwd_strength">
-						<li class="lower active">弱</li>
-						<li class="normal">中</li>
-						<li class="strong">强</li>
-					</ul>
-					<input type="text" placeholder="验证码" class="text small_text"/>
-					<input type="text"placeholder="动态码" class="text"/>
-					<div class="checkbox">
-						<input type="checkbox" id="agree" checked="checked"/><label for="agree">同意<a href="javascript:;">极客学院用户协议</a></label>
-					</div>
-					
-					<input type="button" value="注册" class="login"/>
+					<form action="" method="get" id="register_form">
+						<div class="form_item">
+							<input type="text" placeholder="手机/用户名/邮箱" class="text" name="username"/>
+						</div>
+						<div class="form_item">
+							<input type="password" placeholder="输入6~32位密码" class="text" name="password"/>
+						</div>
+						<ul class="pwd_strength">
+							<li class="lowe">弱</li>
+							<li class="normal">中</li>
+							<li class="strong">强</li>
+						</ul>
+						<div class="form_item">
+							<input type="text" placeholder="验证码" class="text small_text" name="identifying_code"/>
+						</div>
+						<div class="form_item">
+							<input type="text" placeholder="动态码" class="text" name="dynamic_code"/>
+						</div>
+						<div class="checkbox">
+							<input type="checkbox" id="agree" checked="checked" name="agree_protocol"/><label for="agree">同意<a href="javascript:;">极客学院用户协议</a></label>
+						</div>
+
+						<input type="submit" value="注册" class="login" />
+					</form>
 				</div>
 				<div class="right">
 					<h2>已有账号&nbsp;<a href="login.html">直接登录</a></h2>
 					<p class="liner"><span>合作方账号登录</span></p>
 					<ul class="other_login">
-						<li><a href="javascript:;"><span class="icon-QQ"></span></a></li>
-						<li><a href="javascript:;"><span class="icon-unie61d"></span></a></li>
-						<li><a href="javascript:;"><span class="icon-weixin"></span></a></li>
-						<li><a href="javascript:;"><span class="icon-baidu"></span></a></li>
+						<li>
+							<a href="javascript:;"><span class="icon-QQ"></span></a>
+						</li>
+						<li>
+							<a href="javascript:;"><span class="icon-unie61d"></span></a>
+						</li>
+						<li>
+							<a href="javascript:;"><span class="icon-weixin"></span></a>
+						</li>
+						<li>
+							<a href="javascript:;"><span class="icon-baidu"></span></a>
+						</li>
 					</ul>
 				</div>
-				
+
 			</div>
 		</div>
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script src="js/lib/jquery.validate.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/register.js" type="text/javascript" charset="utf-8"></script>
 	</body>
+
 </html>

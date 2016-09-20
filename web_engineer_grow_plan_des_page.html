@@ -8,6 +8,20 @@
 	</head>
 
 	<body>
+		<!--顶部固定导航-->
+		<div class="top_bar" id="top_bar">
+			<nav class="top_nav commwidth">
+			<ul id="top_tab_btns" class="a">
+				<li class="active" data-index="0">课程详情</li>
+				<li data-index="1">课程大纲<span><i></i>试学</span></li>
+			</ul>
+			<div class="btns">
+				<a href="javasscript:;" class="btn active">免费试学</a>
+				<a href="avascript:;" class="btn">立即报名</a>
+			</div>
+		</nav>
+		</div>
+		
 		<header>
 			<nav class="navbar commwidth clearfix">
 				<div class="logo fl">
@@ -111,20 +125,65 @@
 			</div>
 			<div class="web_engineer_course_detail_content clearfix">
 				<div class="left_content">
-					<ul class="web_tab_nav clearfix">
-						<li class="active">课程详情</li>
-						<li>课程大纲<span><i></i>试学</span></li>
+					<ul class="web_tab_nav clearfix" id="tab_btns">
+						<li class="active" data-index="0">课程详情</li>
+						<li data-index="1">课程大纲<span><i></i>试学</span></li>
 					</ul>
-					<div class="img_show">
-						<img src="img/web_course_detail_big_img.jpg" />
-						<img src="img/web_course_detail_big_img2.jpg" />
-						<img src="img/web_course_detail_big_img3.jpg" />
-						<img src="img/web_course_detail_big_img4.jpg" />
-						<img src="img/web_course_detail_big_img5.jpg" />
-						<img src="img/web_course_detail_big_img6.jpg" />
-						<img src="img/web_course_detail_big_img7.jpg" />
-						<img src="img/web_course_detail_big_img8.jpg" />
-					</div>
+					<ul class="nav_contents" id="tab_contents">
+						<li class="img_show">
+							<img src="img/web_course_detail_big_img.jpg" />
+							<img src="img/web_course_detail_big_img2.jpg" />
+							<img src="img/web_course_detail_big_img3.jpg" />
+							<img src="img/web_course_detail_big_img4.jpg" />
+							<img src="img/web_course_detail_big_img5.jpg" />
+							<img src="img/web_course_detail_big_img6.jpg" />
+							<img src="img/web_course_detail_big_img7.jpg" />
+							<img src="img/web_course_detail_big_img8.jpg" />
+						</li>
+						<li class="course_outline" style="display: none;">
+							<span class="group_name">职业入门<i class="right_triangle"></i></span>
+							<div class="catelog">
+								<div class="first_course">
+									<h2>Web前端职业入门</h2>
+									<p class="teacher"><span class="teacher_name">主讲：derek</span><span class="down_arrow">〉</span></p>
+									<p class="course_des">本课程介绍了Web前端的定义和发展历程，并给大家阐述了Web前端工程师的定位和岗位职责，最后详细阐述如何进行体系化学习和前端专业技能的职业发展路径。</p>
+									<div class="book" style="display: none;">
+										<h3>第 1 部分 Web前端职业入门<span>30 分钟</span></h3>
+										<dl>
+											<dt>第一节&nbsp;web前端导学<span>30分钟</span></dt>
+											<dd>web前端导学<span>购买后学习</span></dd>
+										</dl>
+									</div>
+									<div class="book" style="display: none;">
+										<h3>第 1 部分 Web前端职业入门<span>30 分钟</span></h3>
+										<dl>
+											<dt>第一节&nbsp;web前端导学<span>30分钟</span></dt>
+											<dd>web前端导学<span>购买后学习</span></dd>
+										</dl>
+									</div>
+								</div>
+								<div class="second_course">
+									<h2>Web前端职业入门</h2>
+									<p class="teacher"><span class="teacher_name">主讲：derek</span><span class="down_arrow">〉</span></p>
+									<p class="course_des">本课程介绍了Web前端的定义和发展历程，并给大家阐述了Web前端工程师的定位和岗位职责，最后详细阐述如何进行体系化学习和前端专业技能的职业发展路径。</p>
+									<div class="book">
+										<h3>第 1 部分 Web前端职业入门<span>30 分钟</span></h3>
+										<dl>
+											<dt>第一节&nbsp;web前端导学<span>30分钟</span></dt>
+											<dd>web前端导学<span>购买后学习</span></dd>
+										</dl>
+									</div>
+									<div class="book">
+										<h3>第 1 部分 Web前端职业入门<span>30 分钟</span></h3>
+										<dl>
+											<dt>第一节&nbsp;web前端导学<span>30分钟</span></dt>
+											<dd>web前端导学<span>购买后学习</span></dd>
+										</dl>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
 				</div>
 				<div class="right_content">
 					<h2 class="teacher_info_title">主讲老师</h2>
@@ -284,7 +343,7 @@
 		<div class="message_content_pop" style="display: none;" id="pop_layer">
 			<h2>给我们留言</h2><span class="pop_close_arrow" id="close_btn">ˇ</span>
 			<p>您好，很抱歉我们暂时无法为您提供服务，如需帮助，请留言，我们将尽快联系并解决您的问题</p>
-			<label for="phone_number">手机</label><input type="text" id="phone_number"placeholder="请输入手机号"/>
+			<label for="phone_number">手机</label><input type="text" id="phone_number" placeholder="请输入手机号" />
 			<label for="message_content">留言内容<em>*</em></label><textarea placeholder="请输入留言内容" id="message_content"></textarea>
 			<div class="message_btns">
 				<button type="button" class="message_submit_btn">提交</button>
