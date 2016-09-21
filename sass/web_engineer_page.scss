@@ -182,12 +182,26 @@
         .teatcher_info {
             overflow: hidden;
             margin-bottom: 40px;
+            position: relative;
+            &:hover{
+                .slider_btn{
+                    display: block;
+                }
+            }
+            .slider_btn{
+                height: 40px;
+                line-height: 40px;
+                font-size: 30px;
+                width: 30px;
+                margin-top: -20px;
+            }
         }
         .teacher_info_list {
-            width: 1600px;
+            position: relative;
+            width: 2400px;
             li {
                 height: 120px;
-                width: 253px;
+                width: 254px;
                 box-sizing: border-box;
                 padding: 30px 20px;
                 background: #fff;
